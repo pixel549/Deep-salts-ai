@@ -87,22 +87,27 @@ def call_structured(role: str, system_prompt: str, user_content: str, schema_nam
 
     client = get_client(role_cfg.get("api_key_env", "GEMINI_API_KEY"))
 
+    # Gemini 3.x models think by default, and thinking tokens count against
+    # the SAME max_output_tokens budget as the visible answer -- combined,
+    # not separate. Left unset, a chunk of the budget silently goes to
+    # invisible reasoning and the actual JSON can get cut off mid-string
+    # (JSONDecodeError: Unterminated string). This is a per-role dial on
+    # purpose, not a blanket setting: GM/God/DM adjudication carry real
+    # judgment load and get "medium" (Gemini's own current default effort,
+    # and its docs say MINIMAL is only for tasks that would NOT benefit from
+    # reasoning -- these roles are the opposite of that). Players get
+    # "minimal" since picking an action is comparatively low-complexity.
+    # config/models.json's max_tokens already has headroom above typical
+    # output size for exactly this reason -- don't shrink it back down.
+    thinking_level_str = role_cfg.get("thinking_level", "minimal").upper()
+    thinking_level = getattr(types.ThinkingLevel, thinking_level_str)
+
     config = types.GenerateContentConfig(
         system_instruction=system_prompt,
         max_output_tokens=role_cfg["max_tokens"],
         response_mime_type="application/json",
         response_json_schema=schema,
-        # Gemini 3.x models think by default, and thinking tokens count
-        # against the SAME max_output_tokens budget as the visible answer --
-        # combined, not separate, despite what older docs implied. Without
-        # this, a chunk of the budget silently goes to invisible reasoning
-        # and the actual JSON can get cut off mid-string (JSONDecodeError:
-        # Unterminated string). MINIMAL is appropriate here -- structured
-        # JSON generation from a fully-specified schema isn't a task that
-        # benefits from extended reasoning.
-        thinking_config=types.ThinkingConfig(
-            thinking_level=types.ThinkingLevel.MINIMAL
-        ),
+        thinking_config=types.ThinkingConfig(thinking_level=thinking_level),
     )
 
     last_exc = None
