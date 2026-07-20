@@ -5,7 +5,7 @@
   "properties": {
     "action": {
       "type": "string",
-      "description": "What the character says/does. This is visible to the GM and, if performed in front of the other character, to the other player too."
+      "description": "What the character says/does. Visible to the GM and, if performed in front of the other character, to the other player too."
     },
     "private_reasoning": {
       "type": "string",
@@ -18,7 +18,33 @@
         "skill": { "type": "string" },
         "reason": { "type": "string" }
       },
-      "description": "Optional: if the action plausibly requires a roll, name the skill. The orchestrator decides whether a check actually applies."
+      "description": "Section 3 'anything genuinely uncertain' checks only (stealth, forcing a door, reading the unreadable, etc). For combat, use combat_action instead -- don't fill in both for the same action."
+    },
+    "combat_action": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "required": ["type", "target"],
+      "description": "Declare a combat maneuver this turn. The orchestrator resolves it deterministically in dice.py before the GM narrates -- do not use check_requested for anything combat-related.",
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["attack", "parry_attempt", "called_shot", "ambush_called_shot"],
+          "description": "attack = a plain swing, always lands (section 3 -- no attack roll either side). parry_attempt = reacting to an enemy's telegraphed heavy this turn (section 9). called_shot = targeting a limb with a stopwatch tax if its multiplier is >1.0 (section 10; only the head qualifies on a standard humanoid). ambush_called_shot = a genuine unaware/stealth opening -- free, no stopwatch, stacks with visceral (section 10)."
+        },
+        "swing": {
+          "type": ["string", "null"],
+          "enum": ["light", "heavy", null],
+          "description": "Only meaningful for 'attack' and 'called_shot'. Heavy costs more movement (section 8) and hits harder (section 4 weapon formula)."
+        },
+        "target": {
+          "type": "string",
+          "description": "Name of the monster or character this action targets."
+        },
+        "target_limb": {
+          "type": ["string", "null"],
+          "description": "Only for 'called_shot'/'ambush_called_shot'. Use the target's own limb naming -- head/torso/arm_left/arm_right/leg_left/leg_right for a player character, or head/torso/arm/leg for a monster (monsters don't track left/right separately in this simulation)."
+        }
+      }
     }
   }
 }
