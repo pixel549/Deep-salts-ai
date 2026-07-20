@@ -4,6 +4,16 @@ thin git-commit helper. Nothing in here calls the API -- this is pure file
 plumbing so turn_loop.py and session_end.py stay readable.
 """
 
+# Every open() below pins encoding="utf-8" explicitly. Without it, Python
+# falls back to the OS locale encoding -- cp1252 on most Windows setups --
+# and this project writes/reads a LOT of LLM-generated prose full of em
+# dashes and curly quotes. Those get written in one encoding and can get
+# misread as another downstream (e.g. by whatever ingests the session log
+# next), which is exactly what produces mangled "�" replacement characters
+# in session_NNN.md. Pinning utf-8 here makes the files correct regardless
+# of what OS or locale this runs under -- Windows laptop, GitHub Actions
+# ubuntu-latest runner, whatever.
+
 import json
 import subprocess
 from datetime import datetime, timezone
@@ -18,23 +28,23 @@ PROMPTS = ROOT / "prompts"
 
 
 def read_json(path: Path) -> dict:
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return json.load(f)
 
 
 def write_json(path: Path, data: dict) -> None:
-    with open(path, "w") as f:
-        json.dump(data, f, indent=2)
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
         f.write("\n")
 
 
 def read_text(path: Path) -> str:
-    with open(path) as f:
+    with open(path, encoding="utf-8") as f:
         return f.read()
 
 
 def append_text(path: Path, text: str) -> None:
-    with open(path, "a") as f:
+    with open(path, "a", encoding="utf-8") as f:
         f.write(text)
 
 
