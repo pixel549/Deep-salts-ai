@@ -1,0 +1,56 @@
+name: Run Deep Salts turn
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # Every 4 hours. You said you don't need speed -- this gives ~6 turns/day,
+    # comfortably inside Gemini's free-tier daily limits even before accounting
+    # for the fact that a "turn" is only 4 calls. Adjust the cron freely; just
+    # keep it in mind if you ever tighten this a lot, since GM/God calls are
+    # where free-tier rate limits actually start to matter.
+    - cron: "0 */4 * * *"
+
+# Prevents this workflow and run_session_end.yml from ever running at the same
+# time against the same repo state -- without this, two overlapping runs could
+# both read the same starting state, both write conflicting updates, and race
+# on the git push.
+concurrency:
+  group: deep-salts-sim-state
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git identity for commits
+        run: |
+          git config user.name "deep-salts-sim bot"
+          git config user.email "actions@users.noreply.github.com"
+
+      - name: Run turn
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # Only used if you've split a role onto its own key -- see
+          # config/models.json's "_notes". Harmless to leave unset/empty.
+          GEMINI_API_KEY_PLAYER_A: ${{ secrets.GEMINI_API_KEY_PLAYER_A }}
+          GEMINI_API_KEY_PLAYER_B: ${{ secrets.GEMINI_API_KEY_PLAYER_B }}
+          GEMINI_API_KEY_GM: ${{ secrets.GEMINI_API_KEY_GM }}
+          GEMINI_API_KEY_GOD: ${{ secrets.GEMINI_API_KEY_GOD }}
+        run: python -m orchestrator.main turn
+
+      - name: Push commits
+        run: git push
