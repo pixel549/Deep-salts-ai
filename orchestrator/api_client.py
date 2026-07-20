@@ -92,6 +92,17 @@ def call_structured(role: str, system_prompt: str, user_content: str, schema_nam
         max_output_tokens=role_cfg["max_tokens"],
         response_mime_type="application/json",
         response_json_schema=schema,
+        # Gemini 3.x models think by default, and thinking tokens count
+        # against the SAME max_output_tokens budget as the visible answer --
+        # combined, not separate, despite what older docs implied. Without
+        # this, a chunk of the budget silently goes to invisible reasoning
+        # and the actual JSON can get cut off mid-string (JSONDecodeError:
+        # Unterminated string). MINIMAL is appropriate here -- structured
+        # JSON generation from a fully-specified schema isn't a task that
+        # benefits from extended reasoning.
+        thinking_config=types.ThinkingConfig(
+            thinking_level=types.ThinkingLevel.MINIMAL
+        ),
     )
 
     last_exc = None
