@@ -1,9 +1,10 @@
 {
   "location": "stillwell_hydro_lobby",
   "session_number": 1,
-  "turn_number": 3,
+  "turn_number": 4,
   "flags_set": [
-    "lobby_gate_unlocked"
+    "lobby_gate_unlocked",
+    "personnel_records_searched"
   ],
   "known_npcs": [
     {

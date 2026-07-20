@@ -65,3 +65,24 @@ Outcome: Maren's formal demands slide off the clerk like water off waxed canvas.
 ---
 [2026-07-20T13:50:06.868600+00:00]
 Checks: {"Maren Solvig": {"skill": "influence", "governing_attribute": "resolve", "roll": 12, "modifier": -1, "total": 11, "dc": 13, "degree": "fail"}, "Corwin Tarrow": {"skill": "influence", "governing_attribute": "resolve", "roll": 17, "modifier": -2, "total": 15, "dc": 13, "degree": "success"}}
+
+---
+[2026-07-20T17:16:33.829354+00:00]
+GM (turn 4):
+The sulfurous steam rising from the floor grates carries a sharp, metallic tang that claws at the back of your throat, but Maren forces the rising panic down, her mind clearing with cold, sharp precision. Before you, the heavy brass gate to the lower corridor gives a loud, mechanical click as the deadbolt retreats. The Reception Clerk does not move to stop you; he merely stands behind his desk, his waxed-canvas sleeves creaking slightly as he adjusts his posture. His dry, unblinking eyes remain fixed on the empty air between you both. Behind the unlocked gate, the stone stairs wind down into a humid, echoing dark where the low hum of the hot springs vibrates through the soles of your boots. To your left, the door to the Administration Office remains locked and silent, its frosted glass pane dark. The path downward is open, but the keys to the facility's paper secrets are still held behind that dark glass.
+
+---
+[2026-07-20T17:16:37.910954+00:00]
+Maren Solvig: I maintain my rigid, professional posture, refusing to acknowledge the invitation to the lower cisterns for the moment. Instead, I direct my attention back to the locked Administration Office door, keeping my body angled so the Clerk can see I have no intention of leaving without compliance. 'The storage foreman is not my priority, and I do not wander off-protocol,' I state clearly, my voice cold. I reach into my satchel, withdrawing my department-issue multi-tool. I step toward the administrative door, holding the tool up with the air of an inspector preparing for a necessary bypass of a 'non-compliant' lock. 'Since you claim the logs are undergoing sanitization, it falls to me to verify the status of that process personally. Unless you have the key for this office, I am proceeding with an emergency manual inspection of the records room.'
+
+---
+[2026-07-20T17:16:37.911092+00:00]
+Corwin Tarrow: I nod toward the clerk, my smile polite but intentionally restrained now that he's offered the key. 'Much obliged. I'll be sure to check in with Mr. Vance and get this transaction handled.' I scoop up the brass key, my fingers curling around its cold weight. I turn to Maren, my expression calm. 'Looks like the paperwork is a dead end for now. If you want to come along, we can see what's happening down in the cisterns—if there's stock to be moved, that's where we'll find it.' I start toward the gate, stepping gingerly to test the strength of the floorboards against the growing vibration.
+
+---
+[2026-07-20T17:17:49.911377+00:00]
+Outcome: Maren ignores the clerk's warning, stepping up to the locked Administration Office. With a smooth, practiced twist of her multi-tool, she bypasses the lock with a satisfying click and slips inside before the Clerk can interpose his stiff, waxed-canvas form. Inside, she quickly sorts through the unrefined cabinets. She uncovers a crucial personnel file: Tomas Solvig is marked as 'transferred to Northgate Processing' eight months ago, yet the physical daily clock-in logs prove he was still working here three weeks after his official transfer date. Meanwhile, Corwin slips his brass key into the gate. Blind to the rhythmic, breath-like vibration shaking the floorboards, he assumes it is merely old plumbing. As he turns the key, a thick, sweet-smelling humidity drafts up from the dark cistern stairs, clinging to his skin.
+
+---
+[2026-07-20T17:17:49.911467+00:00]
+Checks: {"Maren Solvig": {"skill": "Lockpicking / Persuasion", "governing_attribute": "resolve", "roll": 20, "modifier": -1, "total": 19, "dc": 13, "degree": "critical_success"}, "Corwin Tarrow": {"skill": "Insight", "governing_attribute": "resolve", "roll": 5, "modifier": -2, "total": 3, "dc": 13, "degree": "fail"}}

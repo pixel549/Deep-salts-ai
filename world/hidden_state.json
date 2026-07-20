@@ -59,7 +59,7 @@
       },
       "truth": "tomas_solvig_incident",
       "effect": "Whoever searches finds Tomas Solvig's personnel file marked 'transferred -- Northgate Processing,' with a transfer date that doesn't match the check-in log, which still shows him clocked in three weeks after that date. This only reveals that the paperwork is wrong, not what actually happened to him.",
-      "fired": false
+      "fired": true
     },
     {
       "id": "tomas_found",

@@ -3,11 +3,11 @@
   "monster": null,
   "pending_save_results": [
     {
-      "character": "Maren Solvig",
-      "track": "insanity",
-      "reason": "The clerk's unnatural, robotic denial and the heavy, sulfurous steam leaking from the grates trigger a wave of claustrophobic dread.",
+      "character": "Corwin Tarrow",
+      "track": "influence",
+      "reason": "The sweet-scented hum of the lower stairs pulls at his senses as the gate swings open",
       "roll": 16,
-      "dc": 11,
+      "dc": 12,
       "success": true
     }
   ]
