@@ -1,0 +1,52 @@
+name: Run Deep Salts end-of-session review
+
+on:
+  workflow_dispatch: {}
+  schedule:
+    # Once daily. At 6 turns/day from run_turn.yml, this gives God/DM a
+    # reasonably sized batch of recaps to audit each time, rather than
+    # auditing after every single turn (which is both wasteful and gives
+    # confabulation less chance to actually accumulate into something
+    # worth catching).
+    - cron: "0 0 * * *"
+
+# Shares a concurrency group with run_turn.yml so the two workflows can never
+# run simultaneously and race on the same state files.
+concurrency:
+  group: deep-salts-sim-state
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Configure git identity for commits
+        run: |
+          git config user.name "deep-salts-sim bot"
+          git config user.email "actions@users.noreply.github.com"
+
+      - name: Run end-of-session review
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY_PLAYER_A: ${{ secrets.GEMINI_API_KEY_PLAYER_A }}
+          GEMINI_API_KEY_PLAYER_B: ${{ secrets.GEMINI_API_KEY_PLAYER_B }}
+          GEMINI_API_KEY_GM: ${{ secrets.GEMINI_API_KEY_GM }}
+          GEMINI_API_KEY_GOD: ${{ secrets.GEMINI_API_KEY_GOD }}
+        run: python -m orchestrator.main end-session
+
+      - name: Push commits
+        run: git push
