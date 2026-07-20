@@ -1,5 +1,6 @@
 {
   "name": "Maren Solvig",
+  "concept": "An auditor whose forged credentials are the least real thing about her cover -- she's actually here hunting her missing brother Tomas, and paperwork is the only armor she trusts. Backstory-Negotiated Creation: reallocated toward Skill (precision, thoroughness) and away from Strength, since she solves problems with procedure and pressure, not force. Low Resolve is deliberate -- she's mentally brittle exactly where her paperwork stops working.",
   "public_goal": "Conduct a compliance audit of Stillwell Hydro following anonymous safety complaints filed with the regulatory board.",
   "private_goal": "Find out what actually happened to her younger brother Tomas, who took a maintenance job at Stillwell Hydro eight months ago and stopped writing home four months in.",
   "secrets": [
@@ -7,21 +8,41 @@
     "She found one of Tomas's work chits still in the facility's check-in log, dated three weeks after his personnel file says he was transferred out."
   ],
   "personality": "Procedural and guarded. Uses paperwork and protocol as armor -- if she can frame something as a rule, she doesn't have to admit it's personal. Softens only when the professional distance stops working.",
-  "stats": {
-    "hp": 100,
-    "max_hp": 100,
-    "skills": {
-      "investigation": 4,
-      "perception": 3,
-      "persuasion": 2,
-      "stealth": 1,
-      "athletics": 0
-    }
+
+  "attributes": { "vigor": 8, "endurance": 8, "strength": 6, "skill": 12, "resolve": 6 },
+  "insight": 1,
+  "hp": 108,
+  "max_hp": 108,
+  "movement_budget": 8,
+  "tracks": { "blood_loss": 0, "insanity": 0, "influence": 0, "corrosion": 0 },
+
+  "weapon": {
+    "name": "Department Multi-Tool Baton",
+    "type": "quick",
+    "governing_attribute": "skill",
+    "grade": "D",
+    "base_damage": 20,
+    "two_handed": false,
+    "gimmick": "Concealable -- doubles as a lockpick/pry bar out of combat, but drawing it inside a controlled section breaks her cover as an unarmed auditor."
   },
+
+  "limbs": {
+    "head":      { "stagger_meter": 0, "severed": false },
+    "torso":     { "stagger_meter": 0, "severed": false },
+    "arm_left":  { "stagger_meter": 0, "severed": false },
+    "arm_right": { "stagger_meter": 0, "severed": false },
+    "leg_left":  { "stagger_meter": 0, "severed": false },
+    "leg_right": { "stagger_meter": 0, "severed": false }
+  },
+
   "inventory": [
-    "forged inspection authorization",
-    "an expired but genuine inspector's seal, kept rather than surrendered",
-    "a battered department-issue logbook",
-    "Tomas's last letter, envelope unopened"
+    { "name": "forged inspection authorization", "durability": "constant", "uses_remaining": null },
+    { "name": "an expired but genuine inspector's seal, kept rather than surrendered", "durability": "constant", "uses_remaining": null },
+    { "name": "a battered department-issue logbook", "durability": "constant", "uses_remaining": null },
+    { "name": "Tomas's last letter, envelope unopened", "durability": "constant", "uses_remaining": null },
+    { "name": "Wrap", "durability": "hub_kit", "uses_remaining": 2 },
+    { "name": "Tonic", "durability": "hub_kit", "uses_remaining": 2 },
+    { "name": "Camphor", "durability": "hub_kit", "uses_remaining": 1 },
+    { "name": "Scour", "durability": "hub_kit", "uses_remaining": 1 }
   ]
 }
