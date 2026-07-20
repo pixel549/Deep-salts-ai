@@ -25,6 +25,17 @@ CHARACTERS = ROOT / "characters"
 MEMORY = ROOT / "memory"
 SESSIONS = ROOT / "sessions"
 PROMPTS = ROOT / "prompts"
+RULES = ROOT / "rules"
+ENCOUNTER_PATH = WORLD / "encounter_state.json"
+
+_DEFAULT_ENCOUNTER_STATE = {
+    "active": False,
+    "monster": None,
+    # Insanity/Influence saves the GM flagged last turn (saves_triggered),
+    # already rolled by the orchestrator using the pre-turn track value.
+    # Surfaced into the next GM scene context, then cleared.
+    "pending_save_results": [],
+}
 
 
 def read_json(path: Path) -> dict:
@@ -72,6 +83,28 @@ def gm_memory() -> str:
 
 def prompt(name: str) -> str:
     return read_text(PROMPTS / f"{name}.md")
+
+
+def ruleset_text() -> str:
+    """The actual Deep Salts ruleset (rules/deep-salts-v8.1.md), loaded
+    verbatim into the GM's context. See gm_system.md for how it's used."""
+    return read_text(RULES / "deep-salts-v8.1.md")
+
+
+def encounter_state() -> dict:
+    """No active encounter is the default/normal state -- return that
+    rather than erroring if the file hasn't been created yet."""
+    if not ENCOUNTER_PATH.exists():
+        return dict(_DEFAULT_ENCOUNTER_STATE)
+    return read_json(ENCOUNTER_PATH)
+
+
+def write_encounter_state(data: dict) -> None:
+    write_json(ENCOUNTER_PATH, data)
+
+
+def clear_encounter_state() -> None:
+    write_encounter_state(dict(_DEFAULT_ENCOUNTER_STATE))
 
 
 def session_log_path(session_number: int) -> Path:
