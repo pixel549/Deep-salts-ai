@@ -1,5 +1,6 @@
 {
   "name": "Corwin Tarrow",
+  "concept": "A salt trader whose lapsed certification is quietly propping up his whole livelihood, here to get primordial-grade salt for his dying granddaughter before he's fully found out. Backstory-Negotiated Creation: reallocated toward Vigor and Strength (a man used to hauling and taking hits from the trade), away from Resolve -- his warmth is real, but so is how close to the edge his composure actually is.",
   "public_goal": "Negotiate purchase of Stillwell Hydro's remaining refined salt stock for his apothecary trade.",
   "private_goal": "Acquire a measure of unrefined, primordial-grade salt -- a grade the facility isn't supposed to still have -- to slow a wasting sickness in his granddaughter, who is running out of time.",
   "secrets": [
@@ -7,21 +8,41 @@
     "He believes he understands the handling risk well enough, inherited secondhand from his mentor's notes. He has no way of knowing that belief might be out of date."
   ],
   "personality": "Warm, folksy, and quick with a disarming story -- charm as a tool, not just a trait. Improvises past problems rather than planning around them. The warmth is real; so is what it's covering for.",
-  "stats": {
-    "hp": 100,
-    "max_hp": 100,
-    "skills": {
-      "chemistry": 4,
-      "persuasion": 3,
-      "perception": 2,
-      "athletics": 1,
-      "stealth": 0
-    }
+
+  "attributes": { "vigor": 10, "endurance": 8, "strength": 10, "skill": 8, "resolve": 4 },
+  "insight": 1,
+  "hp": 120,
+  "max_hp": 120,
+  "movement_budget": 8,
+  "tracks": { "blood_loss": 0, "insanity": 0, "influence": 0, "corrosion": 0 },
+
+  "weapon": {
+    "name": "Sample-Weight Cudgel",
+    "type": "heavy",
+    "governing_attribute": "strength",
+    "grade": "D",
+    "base_damage": 22,
+    "two_handed": false,
+    "gimmick": "Improvised from a calibration weight off his scale -- solid and reliable, but blunt: never sever-capable, full stop (same sub-floor trade-off Fists take, session-6-style ruling)."
   },
+
+  "limbs": {
+    "head":      { "stagger_meter": 0, "severed": false },
+    "torso":     { "stagger_meter": 0, "severed": false },
+    "arm_left":  { "stagger_meter": 0, "severed": false },
+    "arm_right": { "stagger_meter": 0, "severed": false },
+    "leg_left":  { "stagger_meter": 0, "severed": false },
+    "leg_right": { "stagger_meter": 0, "severed": false }
+  },
+
   "inventory": [
-    "traveling apothecary case",
-    "a scale calibrated for precious-grade salt",
-    "his late mentor's handling gloves, license lapsed but the gloves still work",
-    "a photograph of his granddaughter"
+    { "name": "traveling apothecary case", "durability": "constant", "uses_remaining": null },
+    { "name": "a scale calibrated for precious-grade salt", "durability": "constant", "uses_remaining": null },
+    { "name": "his late mentor's handling gloves, license lapsed but the gloves still work", "durability": "constant", "uses_remaining": null },
+    { "name": "a photograph of his granddaughter", "durability": "constant", "uses_remaining": null },
+    { "name": "Wrap", "durability": "hub_kit", "uses_remaining": 2 },
+    { "name": "Tonic", "durability": "hub_kit", "uses_remaining": 2 },
+    { "name": "Camphor", "durability": "hub_kit", "uses_remaining": 1 },
+    { "name": "Scour", "durability": "hub_kit", "uses_remaining": 1 }
   ]
 }
