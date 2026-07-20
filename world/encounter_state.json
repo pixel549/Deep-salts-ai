@@ -1,5 +1,22 @@
 {
   "active": false,
   "monster": null,
-  "pending_save_results": []
+  "pending_save_results": [
+    {
+      "character": "Maren Solvig",
+      "track": "insanity",
+      "reason": "The suffocating silence and teeth-rattling hum of the empty, mist-shrouded lobby.",
+      "roll": 16,
+      "dc": 10,
+      "success": true
+    },
+    {
+      "character": "Corwin Tarrow",
+      "track": "insanity",
+      "reason": "The suffocating silence and teeth-rattling hum of the empty, mist-shrouded lobby.",
+      "roll": 15,
+      "dc": 10,
+      "success": true
+    }
+  ]
 }

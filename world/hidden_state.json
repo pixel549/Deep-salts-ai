@@ -30,7 +30,10 @@
       "id": "tomas_solvig",
       "name": "Tomas Solvig",
       "public_believes": "Transferred to Northgate Processing (per his falsified personnel file). Maren privately fears he's dead.",
-      "truth_ref": ["tomas_alive_and_holding", "tomas_influence_on_maren"],
+      "truth_ref": [
+        "tomas_alive_and_holding",
+        "tomas_influence_on_maren"
+      ],
       "current_state": "Alive, hiding in the facility's lower maintenance wing, physically marked by salt exposure and in chronic low-grade pain he hides badly. Holds a small, safely-contained quantity of primordial-grade salt.",
       "agenda": "Keep what he has. Keep himself hidden from the facility's management, who he blames for the accident. If Maren finds him, use her to secure his position rather than reveal himself to anyone else -- including, eventually, pushing her to move against Corwin if Corwin's want for the salt becomes known.",
       "play_notes": "Do not have him hand over the salt easily or explain himself fully on first contact, even to Maren -- he tests her loyalty first. He is not a villain to himself; he believes he's protecting something he earned at real cost. Let his manipulation of Maren be gradual and disguised as brotherly concern, not overt.",
