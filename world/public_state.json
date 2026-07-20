@@ -1,8 +1,13 @@
 {
   "location": "stillwell_hydro_lobby",
   "session_number": 1,
-  "turn_number": 1,
+  "turn_number": 2,
   "flags_set": [],
-  "known_npcs": [],
+  "known_npcs": [
+    {
+      "name": "The Reception Clerk",
+      "description": "A thin, pale man in a stiff high collar and a waxed-canvas coat. His skin is dry, his movements mechanically precise, and he speaks in an unsettlingly rehearsed, flat cadence. He refuses to offer any helpful information, insisting that all patients are 'taking the deep cure' and cannot be disturbed."
+    }
+  ],
   "log_summary": "Maren Solvig (posing as a compliance auditor) and Corwin Tarrow (an independent salt trader) have separately arrived at Stillwell Hydro. Neither has stated their real reason for being here, and neither knows the other's."
 }
