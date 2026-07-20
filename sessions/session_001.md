@@ -86,3 +86,20 @@ Outcome: Maren ignores the clerk's warning, stepping up to the locked Administra
 ---
 [2026-07-20T17:17:49.911467+00:00]
 Checks: {"Maren Solvig": {"skill": "Lockpicking / Persuasion", "governing_attribute": "resolve", "roll": 20, "modifier": -1, "total": 19, "dc": 13, "degree": "critical_success"}, "Corwin Tarrow": {"skill": "Insight", "governing_attribute": "resolve", "roll": 5, "modifier": -2, "total": 3, "dc": 13, "degree": "fail"}}
+
+---
+[2026-07-20T20:58:19.970600+00:00]
+GM (turn 5):
+Corwin steps onto the wet brass grating of the lower corridor, his boots slick with condensation. The sweet, heavy scent of the warm springs below surges up to meet him—a thick, floral humidity that whispers of deep salt-beds and quiet dark. For a second, the humming vibration in the floorboards threatens to pull his thoughts loose, but he blinks the vapor from his eyes, his mind clearing. He is still in control, though the warm air from the descent feels almost alive against his skin. At the same moment, Maren quietly slips back through the dark doorway of the administration office, her boots silent on the lobby's tiled floor. Beneath her coat, the stolen personnel ledger sheet feels heavy. The ink is dry, but the lie is fresh: the official record marks her brother Tomas as transferred to Northgate Processing eight months ago, yet the daily clock-in sheets she saw—written in his unmistakable, cramped hand—prove he was still entering this facility weeks after his supposed departure. The clerk's files are a deliberate fabrication. The heavy brass gate to the lower levels now stands open, yawning into a damp, unlit stairwell that leads down into the maintenance tunnels. The clerk remains motionless behind his desk, his waxed-canvas coat gleaming under the flickering gaslight. The two travelers are left standing at the threshold, each holding a different fragment of Stillwell's secrets.
+
+---
+[2026-07-20T20:58:23.804090+00:00]
+Maren Solvig: I step back toward Corwin, closing the distance between us while keeping the clerk in my peripheral vision. I slide the recovered ledger sheet into my satchel, ensuring it is secure, and keep my voice low and urgent. 'The personnel records are falsified,' I say to Corwin, my tone tight with suppressed agitation. 'They claim Tomas was transferred, but he was physically present and signing in weeks after the alleged date. This entire facility is a deliberate fabrication, and the clerk is complicit. The administrative office is effectively dead for further leads; the truth is somewhere else now.' I nod toward the dark, yawning stairwell. 'If the storage foreman is down there, he might be the only person left to interrogate. I am going down. Are you coming?'
+
+---
+[2026-07-20T20:58:23.804224+00:00]
+Corwin Tarrow: I step back from the stairwell for a moment, keeping my voice low so the clerk doesn't overhear. 'Maren, the foreman is missing and the records up here are a mess—the clerk is feeding us a line about sanitization. I've got the key to the lower cisterns, but it's damp and dark down there. If we're going to find out where the real inventory is, we need to move now before that thing behind the counter decides we're 'disturbing' the residents. You find anything useful in the office?'
+
+---
+[2026-07-20T20:58:44.955203+00:00]
+Outcome: Maren slips the stolen page into her satchel and reveals the truth: the paperwork is a lie, and Tomas was still here weeks after his supposed transfer. Corwin agrees that they must move before the uncanny clerk intervenes. Together, they step past the unlocked gate and descend the stone steps. The temperature rises rapidly. The dry, dusty silence of the lobby gives way to a thick, sulfur-choked heat and a deep, rhythmic thudding from the iron pipes below—a wet, mechanical heartbeat that reverberates in their chests. The condensation on the walls is greasy and thick with mineral salts. They have left the mundane world behind; the damp dark of the lower corridor swallows them.

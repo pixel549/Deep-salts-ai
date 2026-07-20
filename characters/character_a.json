@@ -15,7 +15,7 @@
     "skill": 12,
     "resolve": 6
   },
-  "insight": 2,
+  "insight": 3,
   "hp": 108,
   "max_hp": 108,
   "movement_budget": 8,
@@ -100,6 +100,11 @@
       "name": "Scour",
       "durability": "hub_kit",
       "uses_remaining": 1
+    },
+    {
+      "name": "falsified_ledger_sheet",
+      "durability": "constant",
+      "uses_remaining": null
     }
   ]
 }

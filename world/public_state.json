@@ -1,7 +1,7 @@
 {
-  "location": "stillwell_hydro_lobby",
+  "location": "stillwell_hydro_lower_corridor",
   "session_number": 1,
-  "turn_number": 4,
+  "turn_number": 5,
   "flags_set": [
     "lobby_gate_unlocked",
     "personnel_records_searched"
