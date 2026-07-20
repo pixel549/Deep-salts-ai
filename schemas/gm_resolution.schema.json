@@ -5,7 +5,7 @@
   "properties": {
     "outcome_narration": {
       "type": "string",
-      "description": "What both players are told happened, given the resolved actions and any dice results provided to you."
+      "description": "What both players are told happened, given the resolved actions and any dice/combat results provided to you. Narrate combat numbers you were given (HP lost, sever, stagger) -- never invent your own damage numbers or decide success/failure yourself."
     },
     "public_state_deltas": {
       "type": "object",
@@ -18,11 +18,12 @@
             "additionalProperties": false,
             "required": ["character", "delta", "reason"],
             "properties": {
-              "character": { "type": "string" },
+              "character": { "type": "string", "description": "A player character's name OR the current monster's name if one is active." },
               "delta": { "type": "integer" },
               "reason": { "type": "string" }
             }
-          }
+          },
+          "description": "For combat turns, this should match the effective_damage/hp_after numbers the orchestrator already computed and gave you in this turn's context -- do not recompute or invent your own."
         },
         "inventory_changes": {
           "type": "array",
@@ -51,20 +52,94 @@
             "required": ["name", "description"],
             "properties": {
               "name": { "type": "string" },
-              "description": {
-                "type": "string",
-                "description": "What both players now know about this NPC publicly. Do not include GM-only agenda/leverage details from hidden_state.json here -- only what's fair for both characters to now be aware of."
-              }
+              "description": { "type": "string", "description": "What both players now know about this NPC publicly. Do not include GM-only agenda/leverage details from hidden_state.json here." }
             }
           },
-          "description": "Use when a hidden_state.json hidden_npc becomes known to the players this turn (e.g. found, named, or otherwise surfaced in the fiction). Moves them into public_state.json's known_npcs list."
+          "description": "Use when a hidden_state.json hidden_npc becomes known to the players this turn."
+        },
+        "limb_effects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["character", "limb", "effect", "reason"],
+            "properties": {
+              "character": { "type": "string" },
+              "limb": { "type": "string", "description": "head/torso/arm_left/arm_right/leg_left/leg_right for a PC, head/torso/arm/leg for a monster." },
+              "effect": { "type": "string", "enum": ["staggered", "severed"] },
+              "reason": { "type": "string" }
+            }
+          },
+          "description": "Section 10. Only set this from a stagger_crossed=true or sever=true result the orchestrator already gave you this turn -- never decide a sever/stagger yourself."
+        },
+        "status_track_changes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["character", "track", "delta", "reason"],
+            "properties": {
+              "character": { "type": "string" },
+              "track": { "type": "string", "enum": ["blood_loss", "insanity", "influence", "corrosion"] },
+              "delta": { "type": "integer" },
+              "reason": { "type": "string" }
+            }
+          },
+          "description": "Section 5. Building Blood Loss/Influence/Corrosion from a hit or hazard is a narrative-judgment call you make (how many stacks a given hit/moment warrants); the ruleset's per-stack math (e.g. Blood Loss bonus damage) is handled by the orchestrator once you set the delta."
+        },
+        "insight_changes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["character", "delta", "reason"],
+            "properties": {
+              "character": { "type": "string" },
+              "delta": { "type": "integer" },
+              "reason": { "type": "string" }
+            }
+          },
+          "description": "Section 11. Usually +1 per discovery trigger (first sighting of a new archetype, lore, surviving a near-death, defeating a boss) -- once per discovery."
+        },
+        "monster_spawned": {
+          "type": ["object", "null"],
+          "additionalProperties": false,
+          "properties": {
+            "archetype": {
+              "type": "string",
+              "enum": ["shambler", "lunger", "burster", "chanter", "spitter", "brute", "flailer"],
+              "description": "Section 16 default archetype table. The orchestrator generates the actual HP/stats from this -- you only pick which archetype fits the fiction."
+            },
+            "name": { "type": "string", "description": "A fiction-appropriate name/description for this specific instance." },
+            "reason": { "type": "string" }
+          },
+          "description": "Set this when this turn's events introduce a new hostile encounter. Only one monster can be active at a time in this simulation -- don't set this if one is already active (check the encounter state you were given in context)."
+        },
+        "encounter_ended": {
+          "type": "boolean",
+          "description": "Set true when the active monster is defeated, flees, or the encounter otherwise resolves -- clears the encounter so a new one can spawn later."
+        },
+        "saves_triggered": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["character", "track", "reason"],
+            "properties": {
+              "character": { "type": "string" },
+              "track": { "type": "string", "enum": ["insanity", "influence"] },
+              "situational_mod": { "type": "integer" },
+              "reason": { "type": "string" }
+            }
+          },
+          "description": "Section 5 Save Roll. Flag when this turn's events call for one (taking damage, witnessing something wrong, a fear moment, an Influence source acting). The orchestrator rolls it using the CURRENT track value and surfaces the result at the top of next turn's scene -- you will not know the outcome this turn."
         }
       }
     },
     "triggers_fired": {
       "type": "array",
       "items": { "type": "string" },
-      "description": "IDs of hidden_state.json triggers that fired this turn, if any. GM only reveals what the trigger's effect specifies, not the raw truth field verbatim unless the fiction calls for full revelation."
+      "description": "IDs of hidden_state.json triggers that fired this turn, if any."
     },
     "gm_private_notes": {
       "type": "string",
