@@ -1,43 +1,130 @@
 {
   "type": "object",
   "additionalProperties": false,
-  "required": ["name", "public_goal", "private_goal", "secrets", "stats", "inventory"],
+  "required": [
+    "name", "public_goal", "private_goal", "secrets", "personality",
+    "attributes", "insight", "hp", "max_hp", "movement_budget",
+    "tracks", "weapon", "limbs", "inventory"
+  ],
   "properties": {
     "name": { "type": "string" },
-    "public_goal": {
+    "concept": {
       "type": "string",
-      "description": "What other characters and the world know this character wants. Not a secret."
+      "description": "Short backstory concept per section 4 Backstory-Negotiated Creation -- the basis the attribute reallocation and bespoke weapon were negotiated from."
     },
-    "private_goal": {
-      "type": "string",
-      "description": "What this character actually wants, may differ from public_goal."
-    },
-    "secrets": {
-      "type": "array",
-      "items": { "type": "string" },
-      "description": "Facts only this character (and the GM) start out knowing."
-    },
-    "personality": {
-      "type": "string",
-      "description": "Free-text personality/voice notes for staying in-character."
-    },
-    "stats": {
+    "public_goal": { "type": "string" },
+    "private_goal": { "type": "string" },
+    "secrets": { "type": "array", "items": { "type": "string" } },
+    "personality": { "type": "string" },
+
+    "attributes": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["hp", "max_hp", "skills"],
+      "required": ["vigor", "endurance", "strength", "skill", "resolve"],
+      "description": "Section 4. Five buyable attributes, default 8 each (40 total, flat 8x5). A strong concept can redistribute unevenly under Backstory-Negotiated Creation; total stays 40 unless both sides agree it earns more. Cap 99 each.",
       "properties": {
-        "hp": { "type": "integer" },
-        "max_hp": { "type": "integer" },
-        "skills": {
-          "type": "object",
-          "description": "Skill name -> modifier used by dice.py checks.",
-          "additionalProperties": { "type": "integer" }
+        "vigor": { "type": "integer", "minimum": 1, "maximum": 99, "description": "-> max HP, Blood Loss resilience" },
+        "endurance": { "type": "integer", "minimum": 1, "maximum": 99, "description": "-> movement budget" },
+        "strength": { "type": "integer", "minimum": 1, "maximum": 99, "description": "-> heavy weapon damage, sever power" },
+        "skill": { "type": "integer", "minimum": 1, "maximum": 99, "description": "-> light weapon damage, parry/precision tolerance" },
+        "resolve": { "type": "integer", "minimum": 1, "maximum": 99, "description": "-> Insanity/Influence saves" }
+      }
+    },
+
+    "insight": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Section 11. Separate sixth dial, earned not bought. Starts at 1."
+    },
+
+    "hp": { "type": "integer", "description": "Current HP. 0 always kills (section 3), on everything." },
+    "max_hp": { "type": "integer", "description": "Section 4: 60 + (Vigor x 6). Recompute if Vigor ever changes." },
+    "movement_budget": { "type": "integer", "description": "Section 4: 8 + floor(Endurance / 15) meters. Recompute if Endurance ever changes." },
+
+    "tracks": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["blood_loss", "insanity", "influence", "corrosion"],
+      "description": "Section 5. All build 0-10 (Influence uncapped past 10, no overflow trigger) rather than switching on/off.",
+      "properties": {
+        "blood_loss": { "type": "integer", "minimum": 0, "maximum": 10 },
+        "insanity": { "type": "integer", "minimum": 0, "maximum": 10 },
+        "influence": { "type": "integer", "minimum": 0 },
+        "corrosion": { "type": "integer", "minimum": 0, "maximum": 5 }
+      }
+    },
+
+    "weapon": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "type", "governing_attribute", "grade", "base_damage", "two_handed", "gimmick"],
+      "description": "Section 4. A bespoke starting weapon per Backstory-Negotiated Creation -- base damage in-range for the concept, never under the Damage Floor (20), one signature gimmick.",
+      "properties": {
+        "name": { "type": "string" },
+        "type": { "type": "string", "enum": ["quick", "heavy", "reach", "trick"] },
+        "governing_attribute": { "type": "string", "enum": ["strength", "skill"] },
+        "grade": { "type": "string", "enum": ["E", "D", "C", "B", "A", "S"] },
+        "base_damage": { "type": "integer", "minimum": 20 },
+        "two_handed": { "type": "boolean" },
+        "gimmick": { "type": "string" }
+      }
+    },
+
+    "limbs": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["head", "torso", "arm_left", "arm_right", "leg_left", "leg_right"],
+      "description": "Section 10 standard humanoid limb tracking. Multipliers/thresholds are fixed constants in dice.py, not stored per-character -- only live state (stagger meter, severed) lives here.",
+      "properties": {
+        "head": {
+          "type": "object", "additionalProperties": false,
+          "required": ["stagger_meter", "severed"],
+          "properties": { "stagger_meter": { "type": "integer", "minimum": 0 }, "severed": { "type": "boolean" } }
+        },
+        "torso": {
+          "type": "object", "additionalProperties": false,
+          "required": ["stagger_meter", "severed"],
+          "properties": { "stagger_meter": { "type": "integer", "minimum": 0 }, "severed": { "type": "boolean" } }
+        },
+        "arm_left": {
+          "type": "object", "additionalProperties": false,
+          "required": ["stagger_meter", "severed"],
+          "properties": { "stagger_meter": { "type": "integer", "minimum": 0 }, "severed": { "type": "boolean" } }
+        },
+        "arm_right": {
+          "type": "object", "additionalProperties": false,
+          "required": ["stagger_meter", "severed"],
+          "properties": { "stagger_meter": { "type": "integer", "minimum": 0 }, "severed": { "type": "boolean" } }
+        },
+        "leg_left": {
+          "type": "object", "additionalProperties": false,
+          "required": ["stagger_meter", "severed"],
+          "properties": { "stagger_meter": { "type": "integer", "minimum": 0 }, "severed": { "type": "boolean" } }
+        },
+        "leg_right": {
+          "type": "object", "additionalProperties": false,
+          "required": ["stagger_meter", "severed"],
+          "properties": { "stagger_meter": { "type": "integer", "minimum": 0 }, "severed": { "type": "boolean" } }
         }
       }
     },
+
     "inventory": {
       "type": "array",
-      "items": { "type": "string" }
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name", "durability"],
+        "properties": {
+          "name": { "type": "string" },
+          "durability": {
+            "type": "string",
+            "enum": ["constant", "hub_kit", "uses", "instance_specific"],
+            "description": "Section 8. Every item carries exactly one durability tag."
+          },
+          "uses_remaining": { "type": ["integer", "null"], "description": "Only meaningful when durability is 'uses'." }
+        }
+      }
     }
   }
 }
