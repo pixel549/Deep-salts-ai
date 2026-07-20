@@ -1,8 +1,10 @@
 {
   "location": "stillwell_hydro_lobby",
   "session_number": 1,
-  "turn_number": 2,
-  "flags_set": [],
+  "turn_number": 3,
+  "flags_set": [
+    "lobby_gate_unlocked"
+  ],
   "known_npcs": [
     {
       "name": "The Reception Clerk",

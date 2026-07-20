@@ -44,3 +44,24 @@ Outcome: The brass bell's ring is instantly choked by the wet, heavy air, produc
 ---
 [2026-07-20T10:39:17.339382+00:00]
 Checks: {"Maren Solvig": {"skill": "skill", "governing_attribute": "resolve", "roll": 5, "modifier": -1, "total": 4, "dc": 13, "degree": "fail"}, "Corwin Tarrow": {"skill": "Insight", "governing_attribute": "resolve", "roll": 1, "modifier": -2, "total": -1, "dc": 13, "degree": "critical_fail"}}
+
+---
+[2026-07-20T13:47:39.898163+00:00]
+GM (turn 3):
+The sudden, distorting ripple in the brass plate on the desk settles back into cold, flat metal as Corwin blinks. His reflection returns to normal, though his collar feels damp with sweat. The rhythmic vibration of the hot springs beneath the floorboards continues to push against his heels, but he anchors his weight and refuses to let his stride fall into its swinging tempo. Beside him, Maren draws her fingers back from the dry, clean parchment of the ledger. Her hand remains perfectly steady, her face a mask of cool, administrative focus despite the uncanny void of the guest records. The Clerk does not blink. He stands behind the high counter, hands resting lightly on his waxed-canvas coat, his flat gaze split evenly between them. Behind him, the heavy frosted-glass door marked 'Administration & Registry' remains locked, the brass handle dull with condensation. To their right, the tiled archway of the lower corridor waits, breathing out a thick, mineral-laden draft that smells of wet slate, sulfur, and ancient steam.
+
+---
+[2026-07-20T13:47:43.955661+00:00]
+Maren Solvig: I straighten my posture, offering the clerk a thin, composed smile that doesn't reach my eyes. 'Restricted therapeutic protocols are noted,' I reply, my voice steady and professional. I slide my leather-bound logbook onto the counter, purposefully resting it over the spot where the register was closed. 'However, my authorization for a compliance audit of the Stillwell facility remains absolute regardless of internal guest status. I am here to verify facility safety, not to disturb residents. I will require immediate access to the administrative and personnel logs to confirm the facility’s current staffing capacity and maintenance oversight. Shall we proceed to the registry, or are you suggesting that Stillwell Hydro is currently in violation of the mandated regulatory transparency laws?'
+
+---
+[2026-07-20T13:47:43.955791+00:00]
+Corwin Tarrow: I offer a polite, practiced smile, letting the professional warmth slide over my face despite the lingering ache in my jaw. I keep my hands visible, resting them on the counter away from my cudgel. 'A deep cure, you say? That's a shame. I suppose that means the administrative offices are similarly restricted.' I gesture vaguely toward the door behind him, my voice steady. 'I'm Corwin Tarrow, a licensed merchant. I'm looking to move some inventory—refined stock specifically—to keep the trade routes steady. If the administration is currently occupied, perhaps you could point me toward the storage foreman or a clerk with authority to sign off on a bulk transfer? I’d hate to leave the floor empty-handed when there’s business to be done.'
+
+---
+[2026-07-20T13:50:06.868497+00:00]
+Outcome: Maren's formal demands slide off the clerk like water off waxed canvas. He does not so much as blink at her leather-bound logbook, his gaze remaining fixed on the empty air slightly above her shoulder. 'All administrative and personnel logs are currently undergoing active sanitization,' he intones, his voice a flat, dead drone. 'The records are sealed until the cycle completes.' However, when Corwin steps in with his easy merchant's smile and inquiries about bulk transfers, the clerk's neck hinges sideways with a dry, clicking sound. 'Refined stock,' the clerk repeats. 'The bath-salts are drawn and stored below. The storage foreman, Mr. Vance, manages the lower cisterns. He has not returned to his post.' Slowly, the clerk reaches beneath the polished brass counter and produces a heavy, cold brass key, sliding it across the wood toward Corwin. 'You may seek him in the service corridors. Return the key when your business is concluded.' The heavy iron gate leading down to the Lower Corridor stands unlocked, though the dark, humid administrative office remains locked and silent beside them.
+
+---
+[2026-07-20T13:50:06.868600+00:00]
+Checks: {"Maren Solvig": {"skill": "influence", "governing_attribute": "resolve", "roll": 12, "modifier": -1, "total": 11, "dc": 13, "degree": "fail"}, "Corwin Tarrow": {"skill": "influence", "governing_attribute": "resolve", "roll": 17, "modifier": -2, "total": 15, "dc": 13, "degree": "success"}}
