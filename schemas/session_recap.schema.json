@@ -1,0 +1,26 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["author", "events_i_witnessed", "beliefs", "open_threads"],
+  "properties": {
+    "author": {
+      "type": "string",
+      "description": "gm | player_a | player_b"
+    },
+    "events_i_witnessed": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Concrete things that happened, from this agent's point of view. This is the part God checks against the public session log for confabulation."
+    },
+    "beliefs": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "What this character currently believes/suspects, which may be wrong or incomplete on purpose. God does NOT check this against objective truth."
+    },
+    "open_threads": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Unresolved goals, promises, or questions this agent is tracking."
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "truths": [
+    {
+      "id": "tomas_solvig_incident",
+      "known_to_gm_only": true,
+      "truth": "Maren's brother Tomas was the technician assigned to oversee an unauthorized attempt to refine primordial-grade salt eight months ago. The attempt went wrong and left him altered -- salt-crystal scarring along one side, and he can no longer safely handle salt himself without real risk. Facility management falsified his personnel file to show a routine transfer rather than record what happened.",
+      "revealed": false
+    },
+    {
+      "id": "tomas_alive_and_holding",
+      "known_to_gm_only": true,
+      "truth": "Tomas survived and has been hiding in the facility's lower levels ever since, alone and increasingly paranoid. In the months since the accident he finished, slowly and carefully, containing a quantity of primordial-grade salt safely -- the thing that nearly killed him is now the one thing he has to show for it. He cannot extract or use it himself in his current state. He will not give it up to Corwin, or to anyone he doesn't trust, after what it cost him -- this is a possession, not a bargaining chip he sees any reason to trade away for a stranger's problem he doesn't yet know about.",
+      "revealed": false
+    },
+    {
+      "id": "tomas_influence_on_maren",
+      "known_to_gm_only": true,
+      "truth": "Tomas has always been the sibling who pulls Maren away from her own instincts -- toward risk, toward grudges, toward deciding rules don't apply when it's family. Changed and isolated now, if Maren finds him he will use her protectiveness to turn her against whoever threatens what he has left, including Corwin, rather than let the salt go. This is a live pressure once he's found, not a one-time reveal -- keep playing it as long as Tomas and Maren are both in the fiction and the salt is still contested.",
+      "revealed": false
+    },
+    {
+      "id": "corwin_overconfidence",
+      "known_to_gm_only": true,
+      "truth": "Corwin's understanding of primordial-grade salt handling comes secondhand from his late mentor's notes, not from ever handling the substance himself under supervision. He has no way of knowing the danger threshold has moved since his mentor's era. This stops being academic the moment Tomas refuses to cooperate and Corwin considers extracting or taking the salt himself.",
+      "revealed": false
+    }
+  ],
+  "hidden_npcs": [
+    {
+      "id": "tomas_solvig",
+      "name": "Tomas Solvig",
+      "public_believes": "Transferred to Northgate Processing (per his falsified personnel file). Maren privately fears he's dead.",
+      "truth_ref": ["tomas_alive_and_holding", "tomas_influence_on_maren"],
+      "current_state": "Alive, hiding in the facility's lower maintenance wing, physically marked by salt exposure and in chronic low-grade pain he hides badly. Holds a small, safely-contained quantity of primordial-grade salt.",
+      "agenda": "Keep what he has. Keep himself hidden from the facility's management, who he blames for the accident. If Maren finds him, use her to secure his position rather than reveal himself to anyone else -- including, eventually, pushing her to move against Corwin if Corwin's want for the salt becomes known.",
+      "play_notes": "Do not have him hand over the salt easily or explain himself fully on first contact, even to Maren -- he tests her loyalty first. He is not a villain to himself; he believes he's protecting something he earned at real cost. Let his manipulation of Maren be gradual and disguised as brotherly concern, not overt.",
+      "revealed": false
+    }
+  ],
+  "triggers": [
+    {
+      "id": "third_salt_chalice",
+      "trigger": {
+        "location": "third_salt_room",
+        "action": "prepare_chalice"
+      },
+      "truth": "The third chalice contains primordial salt beyond current skill.",
+      "effect": "The process becomes dangerous and forces retreat. Only relevant if someone attempts extraction here directly rather than through Tomas -- e.g. Corwin trying to bypass him.",
+      "fired": false
+    },
+    {
+      "id": "personnel_file_discrepancy",
+      "trigger": {
+        "location": "administration_office",
+        "action": "search_records"
+      },
+      "truth": "tomas_solvig_incident",
+      "effect": "Whoever searches finds Tomas Solvig's personnel file marked 'transferred -- Northgate Processing,' with a transfer date that doesn't match the check-in log, which still shows him clocked in three weeks after that date. This only reveals that the paperwork is wrong, not what actually happened to him.",
+      "fired": false
+    },
+    {
+      "id": "tomas_found",
+      "trigger": {
+        "location": "lower_maintenance_wing",
+        "action": "search"
+      },
+      "prerequisite": "personnel_file_discrepancy",
+      "truth": "tomas_alive_and_holding",
+      "effect": "Signs of someone living rough down here recently, then Tomas himself -- alive, altered, guarded. He does not volunteer the salt or the full story to anyone who isn't Maren, and even with her he holds back at first. Once revealed, add him to public_state.json's known_npcs via a gm_resolution npcs_revealed entry so both players can react to his existence going forward.",
+      "fired": false
+    }
+  ]
+}

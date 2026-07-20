@@ -1,0 +1,27 @@
+{
+  "name": "Corwin Tarrow",
+  "public_goal": "Negotiate purchase of Stillwell Hydro's remaining refined salt stock for his apothecary trade.",
+  "private_goal": "Acquire a measure of unrefined, primordial-grade salt -- a grade the facility isn't supposed to still have -- to slow a wasting sickness in his granddaughter, who is running out of time.",
+  "secrets": [
+    "He was never actually certified to handle primordial-grade salt. The license lapsed with his mentor's death, and he's been quietly trading under a standing that isn't fully his to claim anymore.",
+    "He believes he understands the handling risk well enough, inherited secondhand from his mentor's notes. He has no way of knowing that belief might be out of date."
+  ],
+  "personality": "Warm, folksy, and quick with a disarming story -- charm as a tool, not just a trait. Improvises past problems rather than planning around them. The warmth is real; so is what it's covering for.",
+  "stats": {
+    "hp": 100,
+    "max_hp": 100,
+    "skills": {
+      "chemistry": 4,
+      "persuasion": 3,
+      "perception": 2,
+      "athletics": 1,
+      "stealth": 0
+    }
+  },
+  "inventory": [
+    "traveling apothecary case",
+    "a scale calibrated for precious-grade salt",
+    "his late mentor's handling gloves, license lapsed but the gloves still work",
+    "a photograph of his granddaughter"
+  ]
+}

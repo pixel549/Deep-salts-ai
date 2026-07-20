@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["action", "private_reasoning"],
+  "properties": {
+    "action": {
+      "type": "string",
+      "description": "What the character says/does. This is visible to the GM and, if performed in front of the other character, to the other player too."
+    },
+    "private_reasoning": {
+      "type": "string",
+      "description": "Why the character is doing this, based ONLY on what this character currently knows/believes. Never shown to the other player. Used by God to check for leaked knowledge."
+    },
+    "check_requested": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "skill": { "type": "string" },
+        "reason": { "type": "string" }
+      },
+      "description": "Optional: if the action plausibly requires a roll, name the skill. The orchestrator decides whether a check actually applies."
+    }
+  }
+}

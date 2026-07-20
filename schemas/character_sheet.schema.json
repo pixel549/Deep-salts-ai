@@ -1,0 +1,43 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name", "public_goal", "private_goal", "secrets", "stats", "inventory"],
+  "properties": {
+    "name": { "type": "string" },
+    "public_goal": {
+      "type": "string",
+      "description": "What other characters and the world know this character wants. Not a secret."
+    },
+    "private_goal": {
+      "type": "string",
+      "description": "What this character actually wants, may differ from public_goal."
+    },
+    "secrets": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Facts only this character (and the GM) start out knowing."
+    },
+    "personality": {
+      "type": "string",
+      "description": "Free-text personality/voice notes for staying in-character."
+    },
+    "stats": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["hp", "max_hp", "skills"],
+      "properties": {
+        "hp": { "type": "integer" },
+        "max_hp": { "type": "integer" },
+        "skills": {
+          "type": "object",
+          "description": "Skill name -> modifier used by dice.py checks.",
+          "additionalProperties": { "type": "integer" }
+        }
+      }
+    },
+    "inventory": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["narration", "gm_private_notes"],
+  "properties": {
+    "narration": {
+      "type": "string",
+      "description": "What is shown to BOTH players. Must not contain hidden_state facts unless a trigger has already fired and the truth is being revealed in-fiction."
+    },
+    "gm_private_notes": {
+      "type": "string",
+      "description": "GM's own reasoning about pressure, tension, and what it is watching for this turn. Never shown to players."
+    }
+  }
+}

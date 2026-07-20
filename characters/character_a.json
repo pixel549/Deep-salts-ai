@@ -1,0 +1,27 @@
+{
+  "name": "Maren Solvig",
+  "public_goal": "Conduct a compliance audit of Stillwell Hydro following anonymous safety complaints filed with the regulatory board.",
+  "private_goal": "Find out what actually happened to her younger brother Tomas, who took a maintenance job at Stillwell Hydro eight months ago and stopped writing home four months in.",
+  "secrets": [
+    "Her audit authorization is forged. Her real credentials were suspended after she was blamed for falsifying an inspection report at her last posting -- a report she insists was altered after she filed it, though she's never been able to prove that.",
+    "She found one of Tomas's work chits still in the facility's check-in log, dated three weeks after his personnel file says he was transferred out."
+  ],
+  "personality": "Procedural and guarded. Uses paperwork and protocol as armor -- if she can frame something as a rule, she doesn't have to admit it's personal. Softens only when the professional distance stops working.",
+  "stats": {
+    "hp": 100,
+    "max_hp": 100,
+    "skills": {
+      "investigation": 4,
+      "perception": 3,
+      "persuasion": 2,
+      "stealth": 1,
+      "athletics": 0
+    }
+  },
+  "inventory": [
+    "forged inspection authorization",
+    "an expired but genuine inspector's seal, kept rather than surrendered",
+    "a battered department-issue logbook",
+    "Tomas's last letter, envelope unopened"
+  ]
+}

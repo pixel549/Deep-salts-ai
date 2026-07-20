@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["rulings"],
+  "properties": {
+    "rulings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["target_agent", "instruction", "internal_reasoning"],
+        "properties": {
+          "target_agent": {
+            "type": "string",
+            "description": "gm | player_a | player_b — whose memory file needs the fix."
+          },
+          "instruction": {
+            "type": "string",
+            "description": "The concrete edit to make, stated as a plain assertion (e.g. 'Your memory should show P1's HP at 100%, not 40%.'). This field, and ONLY this field, is what gets forwarded downstream."
+          },
+          "internal_reasoning": {
+            "type": "string",
+            "description": "DM's reasoning for the ruling. May reference other agents' secrets. NEVER forwarded to target_agent — code must strip this field before writing any fix log."
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["for_agent", "instructions"],
+  "properties": {
+    "for_agent": { "type": "string" },
+    "instructions": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Plain assertions only. No rationale, no reference to how the discrepancy was found or what any other agent's memory said."
+    }
+  }
+}

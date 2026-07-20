@@ -1,0 +1,74 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["outcome_narration", "public_state_deltas", "triggers_fired", "gm_private_notes"],
+  "properties": {
+    "outcome_narration": {
+      "type": "string",
+      "description": "What both players are told happened, given the resolved actions and any dice results provided to you."
+    },
+    "public_state_deltas": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "hp_changes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["character", "delta", "reason"],
+            "properties": {
+              "character": { "type": "string" },
+              "delta": { "type": "integer" },
+              "reason": { "type": "string" }
+            }
+          }
+        },
+        "inventory_changes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["character", "item", "change"],
+            "properties": {
+              "character": { "type": "string" },
+              "item": { "type": "string" },
+              "change": { "type": "string", "enum": ["add", "remove"] }
+            }
+          }
+        },
+        "location": { "type": ["string", "null"] },
+        "flags_set": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Free-text world-state flags other systems can key off later, e.g. 'third_chalice_prepared'."
+        },
+        "npcs_revealed": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "description"],
+            "properties": {
+              "name": { "type": "string" },
+              "description": {
+                "type": "string",
+                "description": "What both players now know about this NPC publicly. Do not include GM-only agenda/leverage details from hidden_state.json here -- only what's fair for both characters to now be aware of."
+              }
+            }
+          },
+          "description": "Use when a hidden_state.json hidden_npc becomes known to the players this turn (e.g. found, named, or otherwise surfaced in the fiction). Moves them into public_state.json's known_npcs list."
+        }
+      }
+    },
+    "triggers_fired": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "IDs of hidden_state.json triggers that fired this turn, if any. GM only reveals what the trigger's effect specifies, not the raw truth field verbatim unless the fiction calls for full revelation."
+    },
+    "gm_private_notes": {
+      "type": "string",
+      "description": "Never shown to players. Running GM read on tension, pending consequences, promises made."
+    }
+  }
+}
