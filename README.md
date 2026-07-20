@@ -119,3 +119,20 @@ session, read the output closely before trusting it.
   loop per-turn.** The `concurrency` group in both workflows stops two runs from racing on
   the same state files, but nothing stops a bad run from committing a bad turn — check in on
   it periodically rather than treating "set and forget" as "never look again."
+- **Player-vs-monster combat only.** `combat_action` resolves against the single active
+  encounter's monster; there's no PvP resolution path between the two PCs (they can still
+  fight narratively, it just won't run through the dice/limb system).
+- **Not mechanized yet, and deliberately deferred rather than half-built:** Rally (grey-health
+  recovery), Corrupted Regrowth/mutations, the Salts/Purse/Vault economy, Abandon-All/Retreat/
+  Death fail-states, Fugue, movement/positioning budget enforcement, and boss-specific
+  (hand-set) stat blocks -- only the section 16 default archetype table is wired to spawn.
+  The GM has the full ruleset in context and can narrate these consistently, but nothing in
+  Python enforces them yet. Worth a look before you lean on any of them mattering mechanically.
+- **Monster basic-attack damage is a placeholder** (`dice.MONSTER_BASE_ATTACK_DAMAGE`) -- the
+  ruleset generates this live via DM judgment per encounter, which doesn't translate to a
+  fully autonomous loop without some concrete number. Tune it; the ruleset's own closing line
+  says starting numbers are "yours to change."
+- **Which attribute governs which non-combat skill** (stealth/perception/persuasion/
+  athletics/investigation/chemistry) is this project's own mapping, not the ruleset's --
+  see `dice.SKILL_ATTRIBUTE_MAP`. The ruleset's five attributes were built for combat and
+  never actually assign governing attributes to social/mental checks.
