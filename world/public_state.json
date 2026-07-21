@@ -1,15 +1,20 @@
 {
-  "location": "stillwell_hydro_lower_corridor",
+  "location": "stillwell_hydro_lower_maintenance_wing",
   "session_number": 1,
-  "turn_number": 5,
+  "turn_number": 6,
   "flags_set": [
     "lobby_gate_unlocked",
-    "personnel_records_searched"
+    "personnel_records_searched",
+    "tomas_discovered"
   ],
   "known_npcs": [
     {
       "name": "The Reception Clerk",
       "description": "A thin, pale man in a stiff high collar and a waxed-canvas coat. His skin is dry, his movements mechanically precise, and he speaks in an unsettlingly rehearsed, flat cadence. He refuses to offer any helpful information, insisting that all patients are 'taking the deep cure' and cannot be disturbed."
+    },
+    {
+      "name": "Tomas Solvig",
+      "description": "Maren's brother, formerly a facility technician. He is gaunt, defensive, and altered by severe salt exposure, with jagged crystalline scarring encrusting his neck and shoulder. He carries a sealed brass canister and is hiding from the facility management."
     }
   ],
   "log_summary": "Maren Solvig (posing as a compliance auditor) and Corwin Tarrow (an independent salt trader) have separately arrived at Stillwell Hydro. Neither has stated their real reason for being here, and neither knows the other's."

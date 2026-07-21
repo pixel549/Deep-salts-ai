@@ -3,19 +3,19 @@
   "monster": null,
   "pending_save_results": [
     {
-      "character": "Maren Solvig",
+      "character": "Corwin Tarrow",
       "track": "insanity",
-      "reason": "The oppressive heat and rhythmic, heartbeat-like thrumming of the pipes in the dark descent.",
-      "roll": 18,
-      "dc": 12,
+      "reason": "Hallucinatory collapse and ringing in the ears from critical fail.",
+      "roll": 19,
+      "dc": 13,
       "success": true
     },
     {
-      "character": "Corwin Tarrow",
+      "character": "Maren Solvig",
       "track": "insanity",
-      "reason": "The oppressive heat and rhythmic, heartbeat-like thrumming of the pipes in the dark descent.",
-      "roll": 9,
-      "dc": 11,
+      "reason": "Shock of witnessing her brother's horrific crystalline mutations.",
+      "roll": 3,
+      "dc": 14,
       "success": false
     }
   ]

@@ -70,7 +70,7 @@
       "prerequisite": "personnel_file_discrepancy",
       "truth": "tomas_alive_and_holding",
       "effect": "Signs of someone living rough down here recently, then Tomas himself -- alive, altered, guarded. He does not volunteer the salt or the full story to anyone who isn't Maren, and even with her he holds back at first. Once revealed, add him to public_state.json's known_npcs via a gm_resolution npcs_revealed entry so both players can react to his existence going forward.",
-      "fired": false
+      "fired": true
     }
   ]
 }
