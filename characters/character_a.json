@@ -22,7 +22,7 @@
   "tracks": {
     "blood_loss": 0,
     "insanity": 3,
-    "influence": 0,
+    "influence": 1,
     "corrosion": 0
   },
   "weapon": {

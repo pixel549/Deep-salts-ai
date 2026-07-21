@@ -4,19 +4,19 @@
   "pending_save_results": [
     {
       "character": "Maren Solvig",
-      "track": "insanity",
-      "reason": "Confronting her altered, highly unstable brother in the suffocating depths.",
-      "roll": 17,
-      "dc": 15,
+      "track": "influence",
+      "reason": "Vapor inhalation and escalating environmental salt pressure.",
+      "roll": 18,
+      "dc": 13,
       "success": true
     },
     {
       "character": "Corwin Tarrow",
-      "track": "insanity",
-      "reason": "Facing a paranoid survivor holding unstable primordial salt in a hazardous zone.",
-      "roll": 18,
-      "dc": 14,
-      "success": true
+      "track": "influence",
+      "reason": "Vapor inhalation and escalating environmental salt pressure.",
+      "roll": 10,
+      "dc": 15,
+      "success": false
     }
   ]
 }

@@ -1,12 +1,14 @@
 {
   "location": "stillwell_hydro_lower_maintenance_wing",
   "session_number": 2,
-  "turn_number": 1,
+  "turn_number": 2,
   "flags_set": [
     "lobby_gate_unlocked",
     "personnel_records_searched",
     "tomas_discovered",
-    "tomas_paranoia_deepened"
+    "tomas_paranoia_deepened",
+    "tomas_hostility_escalated",
+    "canister_leak_spotted"
   ],
   "known_npcs": [
     {
