@@ -54,3 +54,24 @@ However, Corwin's keen eyes catch what Maren's panic missed. He observes the ten
 ---
 [2026-07-21T10:17:22.794930+00:00]
 Checks: {"Maren Solvig": {"skill": "persuasion", "governing_attribute": "resolve", "roll": 5, "modifier": -1, "total": 4, "dc": 14, "degree": "fail"}, "Corwin Tarrow": {"skill": "Insight", "governing_attribute": "resolve", "roll": 16, "modifier": -2, "total": 14, "dc": 13, "degree": "success"}}
+
+---
+[2026-07-21T17:05:09.327899+00:00]
+GM (turn 3):
+The sweet, shimmering mist from the canister's seal thickens, smelling of warm copper and dried honey. Maren feels the heavy sweetness coat her throat, but she steels her mind, keeping her eyes fixed on her brother and the blocked doorway behind Corwin. Her breathing remains disciplined, her head clear. Corwin, however, feels the room tilt. The hiss of the escaping gas isn't a threat anymore; it is an invitation. The salt's sweet perfume doesn't just fill his lungs—it commands them. A powerful, irrational urge washes over him to draw closer to the leak, to breathe in the shimmering haze, and to protect the canister from Maren, who suddenly looks cold, calculating, and dangerous to the salt. The trader's calculated caution slips behind a fog of covetous fascination. Tomas stands between them, his scarred fingers trembling on the brass release valve. His eyes flick between Corwin at the door and Maren. 'She brought you,' he mutters, his voice vibrating with the low hum of the crystals on his neck. 'She brought a vulture to clean me out.' He raises his other hand, which holds a heavy iron spanner, his knuckles white. The vapor curls around his scarred shoulder like living threads.
+
+---
+[2026-07-21T17:05:18.122934+00:00]
+Maren Solvig: I ignore Corwin entirely, keeping my posture non-threatening as I take another slow, deliberate step toward Tomas, forcing my voice to remain soft and steady. 'Tomas, look at me. Not the door, not him. Me. You know my face. You know the stories I told you when we were kids. This man is a stranger I met in the lobby—he has nothing to do with us. If that canister is leaking, it's hurting you, not me. Please, let me help you seal it or get you to somewhere with actual air. I didn't come here to take anything, I came here because I haven't slept a full night in months knowing you were missing. I'm here to bring you home, not to fight you.'
+
+---
+[2026-07-21T17:05:18.123056+00:00]
+Corwin Tarrow: I ignore the threat of the spanner, my gaze locked entirely on the venting canister. 'Maren, stay back,' I say, my voice sounding distant even to my own ears, my tone shifting from sympathetic to possessive. I ignore Tomas's accusation, my hands reaching out—not in a threatening way, but in a strange, reverent slow-motion gesture, as if trying to shield the canister from the air itself. 'Tomas, you're hurting it... you're letting the life out of it. It doesn't belong in the dark like this, it needs to be contained properly.' I take a slow, deliberate step toward him, my posture completely open, ignoring the danger of the spanner entirely. 'Give it here. You're dying, but the salt... the salt is precious. Don't let it waste away.'
+
+---
+[2026-07-21T17:05:43.206024+00:00]
+Outcome: Maren's soft voice and childhood memories cut through the suffocating humidity, striking a deep chord within Tomas. The gaunt, crystal-scarred technician hesitates, the heavy iron spanner in his hand trembling as his defensive stance wavers. "Maren... you really came?" he whispers, his eyes widening in a brief, desperate flash of recognition. But the fragile breakthrough is instantly shattered. Corwin, completely overwhelmed by the sweet, shimmering primordial vapor, steps forward with glazed eyes and reverently outstretched hands, muttering about the salt being too precious to waste. Tomas's face twists back into a mask of pure terror. Screaming a warning to keep back, Tomas swings the rusted iron spanner with desperate, frantic strength. The heavy tool cracks hard against Corwin's shoulder, splitting the flesh and sending him stumbling back with a sharp gasp of pain. The violent movement jerks the canister in Tomas's grip, tearing the damaged brass valve further. A high-pitched, deafening hiss fills the maintenance room as a thick plume of shimmering purple steam blasts outward, turning the air suffocatingly sweet and heavy.
+
+---
+[2026-07-21T17:05:43.206115+00:00]
+Checks: {"Maren Solvig": {"skill": "persuasion", "governing_attribute": "resolve", "roll": 15, "modifier": -1, "total": 14, "dc": 14, "degree": "success"}, "Corwin Tarrow": {"skill": "resolve", "governing_attribute": "resolve", "roll": 9, "modifier": -2, "total": 7, "dc": 13, "degree": "fail"}}
