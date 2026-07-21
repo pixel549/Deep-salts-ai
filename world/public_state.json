@@ -1,7 +1,7 @@
 {
   "location": "stillwell_hydro_lower_maintenance_wing",
-  "session_number": 1,
-  "turn_number": 6,
+  "session_number": 2,
+  "turn_number": 0,
   "flags_set": [
     "lobby_gate_unlocked",
     "personnel_records_searched",

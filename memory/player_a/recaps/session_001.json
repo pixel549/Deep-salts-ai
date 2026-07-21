@@ -1,0 +1,19 @@
+{
+  "author": "player_a",
+  "events_i_witnessed": [
+    "I bypassed the locker and discovered Tomas hiding in the maintenance wing, clutching a brass canister.",
+    "Tomas appears physically compromised, with crystalline frost on his face and collarbone.",
+    "Corwin is incapacitated by a sensory hallucination at the workbench and is unaware of Tomas's presence."
+  ],
+  "beliefs": [
+    "Tomas is alive, but he is in immediate physical danger and possibly suffering from the 'deep cure' or exposure to some substance here.",
+    "The brass canister Tomas is holding is likely the reason he was hidden or why the records were falsified.",
+    "Corwin is currently a liability due to his sensory collapse and cannot provide cover while I deal with Tomas."
+  ],
+  "open_threads": [
+    "Secure Tomas and determine the nature of the crystalline affliction on his body.",
+    "Protect Tomas from whatever the 'Clerk' and Stillwell Hydro are doing.",
+    "Figure out what is inside the brass canister.",
+    "Get Corwin to regain his senses without drawing unwanted attention."
+  ]
+}
