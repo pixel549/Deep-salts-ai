@@ -3,36 +3,20 @@
   "monster": null,
   "pending_save_results": [
     {
-      "character": "Corwin Tarrow",
-      "track": "insanity",
-      "reason": "Taking severe physical damage in a highly atmospheric hazard zone.",
-      "roll": 14,
+      "character": "Maren Solvig",
+      "track": "influence",
+      "reason": "The sweet, heavy vapor of the primordial leak triggers a possessive pull toward the canister.",
+      "roll": 1,
       "dc": 15,
       "success": false
     },
     {
       "character": "Corwin Tarrow",
       "track": "influence",
-      "reason": "Attempting to maintain control after inhaling concentrated primordial vapor.",
-      "roll": 17,
-      "dc": 16,
+      "reason": "The concentrated violet mist deepens the urge to secure the salt source.",
+      "roll": 19,
+      "dc": 18,
       "success": true
-    },
-    {
-      "character": "Maren Solvig",
-      "track": "insanity",
-      "reason": "Witnessing her brother strike Corwin amidst worsening environmental contamination.",
-      "roll": 15,
-      "dc": 15,
-      "success": true
-    },
-    {
-      "character": "Maren Solvig",
-      "track": "influence",
-      "reason": "Inhaling the spreading sweet primordial vapor.",
-      "roll": 13,
-      "dc": 14,
-      "success": false
     }
   ]
 }

@@ -75,3 +75,34 @@ Outcome: Maren's soft voice and childhood memories cut through the suffocating h
 ---
 [2026-07-21T17:05:43.206115+00:00]
 Checks: {"Maren Solvig": {"skill": "persuasion", "governing_attribute": "resolve", "roll": 15, "modifier": -1, "total": 14, "dc": 14, "degree": "success"}, "Corwin Tarrow": {"skill": "resolve", "governing_attribute": "resolve", "roll": 9, "modifier": -2, "total": 7, "dc": 13, "degree": "fail"}}
+
+---
+[2026-07-21T20:56:36.893106+00:00]
+GM (turn 4):
+The lower maintenance wing is rapidly losing its shape to a brilliant, violet-tinted mist. The scent of wet slate, wild honey, and burnt copper is overwhelming—the sweet, toxic signature of primordial salt. Tomas stands back against the trembling steam pipes, his knuckles white around the vibrating brass canister. A thin, continuous hiss escapes its valve, spraying a fine powder that glitters like diamond dust in the dim lantern light.
+
+For Corwin, the heavy blow to his chest does not just bruise; it ignites. As he staggers back, the shadows along the sweating stone walls seem to peel away like wet leather. For a disorienting second, the steam pipes scream with the voices of a dozen clerks, and the pain in his ribs feels like sharp, jagged salt crystals growing outward through his skin, demanding to be let out. He is standing, but the room is spinning in a sickening, discordant rhythm.
+
+For Maren, the rush of sweet, heavy vapor brings a sudden, chilling clarity. The panic of the confrontation dissolves into an irrational, protective warmth. The cloying air doesn't feel toxic anymore—it feels right. Looking at Corwin, clutching his bruised chest in the colored fog, he no longer looks like a fellow traveler or a harmless trader. He looks like a threat. The vapor whispers that Tomas is the only one who can be trusted, and that whatever is in that canister must be defended from the outsider.
+
+"Maren," Tomas rasps, his voice thick with salt-dryness, his eyes wild as he looks at the disoriented merchant. "We leave. We lock him in here with the steam, or he takes everything. Choose now."
+
+---
+[2026-07-21T20:56:41.002241+00:00]
+Maren Solvig: I step quickly between Corwin and Tomas, my posture rigid and defensive. I glare at Corwin, my eyes stinging from the vapor, but my heart is pounding with a strange, possessive urgency to shield my brother. 'Tomas is coming with me,' I say, my voice sharp and cold, ignoring the fact that Corwin is wounded. 'He's done, and this isn't his fight. If you try to stop us, you're just another obstacle to be cleared.' I turn toward Tomas, reaching out a hand, my fingers trembling with a mix of fear and an intense, irrational urge to protect the canister he carries. 'We leave, now. Don't waste your breath on him.'
+
+---
+[2026-07-21T20:56:41.002366+00:00]
+Corwin Tarrow: I struggle to stay upright, clutching my bleeding shoulder with one hand while the other gropes blindly for my sample-weight cudgel. The room is undulating, and the violet mist is blurring the edges of everything, but the sight of Tomas and Maren coalescing into a single, opposing shadow triggers a final, desperate flare of professional, possessive instinct. 'You don't understand... the concentration... you're letting it all evaporate...' I choke out, my voice thick with the same metallic grit as the air. I try to steady my feet on the vibrating floor, leveling the heavy iron cudgel toward the space between them, not to kill, but to block their path to the exit. I'm not letting the canister leave. It's the only way to save her, and this 'trade' is all that's left of my life.
+
+---
+[2026-07-21T20:57:10.990577+00:00]
+Outcome: Maren's defensive stance and sharp, protective words strike a deep chord within Tomas. Through his thick layer of paranoia, he sees his sister standing as a shield between him and the trader. His grip on the hissing brass canister tightens, but his posture loses its violent, ready-to-strike tension. 'Maren...' he whispers, his voice dry as salt. He steps back, allowing her to take his hand, fully accepting her as his ally. But Corwin, half-blinded by his bleeding shoulder and the swirling violet mist, refuses to yield. The primordial vapor has warped his perception; he does not see a sister saving her brother, but thieves letting the priceless, volatile substance escape into the air. He sways, raising his heavy iron cudgel to bar the doorway. His breathing is a ragged, wet whistle. He cannot mount a proper attack in his state, but his physical presence blocks the only clear route out of the maintenance wing. Between them, the cracked valve on the canister lets out a sharp, rhythmic hiss. The sweet, metallic taste of the violet fog thickens in everyone's lungs, turning the air heavy, warm, and terrifyingly magnetic.
+
+---
+[2026-07-21T20:57:10.990673+00:00]
+Checks: {"Maren Solvig": {"skill": "influence", "governing_attribute": "resolve", "roll": 18, "modifier": -1, "total": 17, "dc": 13, "degree": "success"}}
+
+---
+[2026-07-21T20:57:10.990756+00:00]
+Combat: {"Corwin Tarrow": {"type": "attack", "note": "No active encounter -- action had no target, ignored."}}
