@@ -21,7 +21,7 @@
   "movement_budget": 8,
   "tracks": {
     "blood_loss": 0,
-    "insanity": 2,
+    "insanity": 3,
     "influence": 0,
     "corrosion": 0
   },
