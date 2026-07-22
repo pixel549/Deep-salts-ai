@@ -5,25 +5,25 @@
     {
       "character": "Corwin Tarrow",
       "track": "influence",
-      "reason": "Cradling the highly concentrated, active primordial canister.",
-      "roll": 9,
-      "dc": 22,
+      "reason": "Clutching the leaking primordial source directly",
+      "roll": 10,
+      "dc": 25,
       "success": false
     },
     {
       "character": "Corwin Tarrow",
       "track": "insanity",
-      "reason": "Extreme environmental stress and physical frostbite.",
-      "roll": 14,
-      "dc": 15,
+      "reason": "Deepening auditory and sensory hallucinations",
+      "roll": 2,
+      "dc": 16,
       "success": false
     },
     {
       "character": "Maren Solvig",
       "track": "insanity",
-      "reason": "Guiding her paranoid, altered brother deeper into the dark facility.",
-      "roll": 16,
-      "dc": 15,
+      "reason": "Trapped in the dark corridor with a failing seal and a panicked brother",
+      "roll": 17,
+      "dc": 16,
       "success": true
     }
   ]

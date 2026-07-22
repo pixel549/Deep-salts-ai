@@ -192,3 +192,28 @@ Corwin Tarrow: I don't look up, instead pulling the grease-coated bundle tighter
 ---
 [2026-07-22T17:06:11.041363+00:00]
 Outcome: Maren supports Tomas's trembling, crystal-scarred frame. His breath is shallow, and his frostbitten fingers cling desperately to her shoulder. Together, they retreat backward into the cold, damp darkness of the lower corridor, leaving the shimmering, freezing haze of the maintenance chamber behind. Tomas mutters under his breath, urging her to keep moving, his eyes darting back toward the doorway in terror. Corwin stands alone in the chamber, cradling the heavy, grease-coated canister against his ribs. The brass container is intensely, biting cold, burning through his coat and shirt with a frost that turns his skin numb and black. The sweet, heavy fragrance of the primordial salt floods his senses, filling his head with a humming resonance that drowns out the dripping pipes. He has his prize, but it is eating away at his flesh.
+
+---
+[2026-07-22T20:52:38.376386+00:00]
+GM (turn 9):
+To Corwin, the screaming cold of the maintenance room has faded into an impossible, radiant warmth. The brass canister cradled against his chest doesn't freeze his coat; it hums with the gentle heat of a hearth fire, and the blackening frost spreading across his knuckles looks like delicate, shimmering silver lace. The rhythmic thrumming of the facility's drainage pipes has resolved into a low, beautiful choir, singing a melody of quiet possession. He is entirely alone in this warm sanctuary, the intruders having fled into the dark. Yet, the hiss of the valve continues to spit its invisible, heavy vapor into the air around him, a sweet perfume that beckons him to stay exactly where he is.
+
+Meanwhile, several dozen meters down the dark, dripping service corridor, Maren's mind remains painfully, sharply clear. The humid air here is cold enough to make her breath bloom in white plumes, but it is free of the suffocating sweet gas. Tomas is a dead weight against her shoulder, his teeth chattering violently as his salt-scarred skin shivers. He clutches at Maren's sleeve with a hand that is stiff, pale, and entirely numb. Just ahead of them, the narrow corridor passes through a heavy, manual iron pressure hatch. If she can drag him through, she could spin the rusted wheel to lock it from this side—cutting off any pursuit from Corwin, but sealing the trader in the freezing, gas-filled chamber behind them.
+
+---
+[2026-07-22T20:52:42.294222+00:00]
+Maren Solvig: I drag Tomas through the pressure hatch with a grunt of exertion, his weight straining my endurance as I haul him over the threshold. Once we are both inside, I scramble to grab the heavy iron wheel and spin it with all my remaining strength to slam the door shut. I don't look back through the observation port—I just focus on throwing the manual bolts and securing the hatch to ensure nothing from the maintenance room follows us. 'We're safe for now, Tomas,' I whisper, my voice breathless and sharp. 'Stay with me. Don't look back.'
+
+---
+[2026-07-22T20:52:42.294347+00:00]
+Corwin Tarrow: I remain seated on the cold metal floor, rocking gently back and forth with the canister cradled tightly in my arms. I look down at the silver, shimmering frost on my hands and offer it a soft, knowing smile, whispering, 'Almost home, little one. They don't know the rhythm, they don't know the song, but I've got you now. We're going to keep the trade routes steady.' I don't look toward the corridor where the others fled; their departure is merely a fading whisper in the beautiful, warm choir of the pipes.
+
+---
+[2026-07-22T20:52:59.488961+00:00]
+Outcome: Maren hurls her weight against the heavy iron pressure door, swinging it shut, but when she grabs the massive manual wheel to throw the bolts, it refuses to budge. The mechanism is completely seized by thick, white mineral scale and crystalline salt-crusting. Despite her straining muscles, she cannot force the wheel to turn. The hatch remains unlocked, hanging open by a stubborn two-inch gap that whistles with a low, freezing draft. Through this crack, a thin, glittering thread of sweet-smelling primordial vapor begins to hiss into the deep corridor. Beside her, Tomas clutches his white-rimed, shivering hand to his chest, his eyes wide as he whispers for her to run.
+
+Back in the maintenance chamber, Corwin remains seated on the freezing floor. To his warped senses, the bitter cold feels like a protective, sun-warmed blanket, and his blackened, frostbitten fingers seem to glow with a welcoming light as he cradles the venting canister. The biting cold deals 15 damage to his physical frame, and the concentrated, sweet fumes pour directly into his lungs, pulling him deeper into the beautiful, humming chorus of the facility's pipes.
+
+---
+[2026-07-22T20:52:59.489037+00:00]
+Checks: {"Maren Solvig": {"skill": "strength", "governing_attribute": "resolve", "roll": 11, "modifier": -1, "total": 10, "dc": 13, "degree": "fail"}}

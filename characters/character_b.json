@@ -16,13 +16,13 @@
     "resolve": 4
   },
   "insight": 3,
-  "hp": 80,
+  "hp": 65,
   "max_hp": 120,
   "movement_budget": 8,
   "tracks": {
-    "blood_loss": 5,
+    "blood_loss": 7,
     "insanity": 4,
-    "influence": 11,
+    "influence": 13,
     "corrosion": 0
   },
   "weapon": {
