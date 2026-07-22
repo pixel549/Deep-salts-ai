@@ -16,13 +16,13 @@
     "resolve": 4
   },
   "insight": 3,
-  "hp": 100,
+  "hp": 80,
   "max_hp": 120,
   "movement_budget": 8,
   "tracks": {
-    "blood_loss": 4,
+    "blood_loss": 5,
     "insanity": 4,
-    "influence": 10,
+    "influence": 11,
     "corrosion": 0
   },
   "weapon": {
@@ -108,6 +108,11 @@
     },
     {
       "name": "Leaking Primordial Canister (Smothered in Coat)",
+      "durability": "constant",
+      "uses_remaining": null
+    },
+    {
+      "name": "Primordial Salt Canister (Freezing/Leaking)",
       "durability": "constant",
       "uses_remaining": null
     }

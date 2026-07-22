@@ -5,24 +5,24 @@
     {
       "character": "Corwin Tarrow",
       "track": "influence",
-      "reason": "Holding a heavily venting primordial salt canister close to his chest",
-      "roll": 18,
-      "dc": 21,
+      "reason": "Cradling the highly concentrated, active primordial canister.",
+      "roll": 9,
+      "dc": 22,
       "success": false
     },
     {
       "character": "Corwin Tarrow",
       "track": "insanity",
-      "reason": "The whispering cold and localized hallucinations of the smothered canister",
-      "roll": 12,
+      "reason": "Extreme environmental stress and physical frostbite.",
+      "roll": 14,
       "dc": 15,
       "success": false
     },
     {
       "character": "Maren Solvig",
       "track": "insanity",
-      "reason": "The terror of her brother's breakdown and the chanting echoes of the deep cure",
-      "roll": 18,
+      "reason": "Guiding her paranoid, altered brother deeper into the dark facility.",
+      "roll": 16,
       "dc": 15,
       "success": true
     }

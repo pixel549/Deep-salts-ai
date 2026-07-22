@@ -175,3 +175,20 @@ Inside, Corwin does not run. Driven by sheer obsession, he lunges into the heart
 ---
 [2026-07-22T10:12:07.755212+00:00]
 Checks: {"Maren Solvig": {"skill": "strength", "governing_attribute": "resolve", "roll": 15, "modifier": -1, "total": 14, "dc": 13, "degree": "success"}, "Corwin Tarrow": {"skill": "vigor", "governing_attribute": "resolve", "roll": 18, "modifier": -2, "total": 16, "dc": 13, "degree": "success"}}
+
+---
+[2026-07-22T17:05:24.045255+00:00]
+GM (turn 8):
+The freezing mist in the maintenance chamber begins to curdle into a sluggish, sweet-smelling grease that clings to the skin. Corwin, your fingers are nearly numb beneath the heavy grease-cloth, yet the brass canister cradled against your chest does not feel cold anymore—to your touch, it radiates a deep, pulsing, biological heat, like a newborn pup. The pipes overhead no longer rattle; they sing in a low, resonant drone that sounds distinctly like a chorus of guest registers being signed in unison. Through the swirling white plumes, the shapes of Maren and her brother in the doorway look warped, their limbs unnaturally elongated and cast in shivering shadow. They are staring at your prize. Maren, your mind remains piercingly, painfully clear against the humming vibration of the stone. You can see the gray frostbite creeping up Tomas's wrists as he whimpers, his teeth clicking together. 'He has it,' Tomas whispers, his eyes wide and fixed on the hunched shape of Corwin in the fog. 'He's taken the salt. Let him have the rot, Maren. We have to go down before the clerk realizes we took the key.' Behind you, the lower maintenance corridor stretches into pitch darkness; before you, Corwin stands frozen in the vapor, clutching the leaking brass cylinder like a dying man's gold.
+
+---
+[2026-07-22T17:05:27.846791+00:00]
+Maren Solvig: I don't look back at Corwin, instead pulling Tomas firmly away from the doorway and toward the dark expanse of the lower corridor. I keep my back to the maintenance chamber, refusing to look at the 'prize' or acknowledge Corwin's presence. 'We go now, Tomas. We don't look at it, we don't speak of it, we just keep moving,' I say, my voice tight and commanding, though my hands are shaking. I focus entirely on supporting my brother's weight and guiding us further into the dark where the Clerk cannot see us.
+
+---
+[2026-07-22T17:05:27.846915+00:00]
+Corwin Tarrow: I don't look up, instead pulling the grease-coated bundle tighter against my chest, feeling that steady, rhythmic heat pulsing through my own coat. My voice is raspy, barely audible over the humming of the pipes. 'It isn't rot,' I mutter, my eyes fixed on the pulsating brass. 'It's the only thing that can fix the damage. You don't understand the concentration required, but I do.' I push myself up from the floor, my movements stiff and sluggish, and turn slowly, deliberately, to face the doorway. I keep the canister cradled and obscured by the folds of my coat, shielding it from their sight and the surrounding air. 'This stays with me. You two... you've done enough. Go.'
+
+---
+[2026-07-22T17:06:11.041363+00:00]
+Outcome: Maren supports Tomas's trembling, crystal-scarred frame. His breath is shallow, and his frostbitten fingers cling desperately to her shoulder. Together, they retreat backward into the cold, damp darkness of the lower corridor, leaving the shimmering, freezing haze of the maintenance chamber behind. Tomas mutters under his breath, urging her to keep moving, his eyes darting back toward the doorway in terror. Corwin stands alone in the chamber, cradling the heavy, grease-coated canister against his ribs. The brass container is intensely, biting cold, burning through his coat and shirt with a frost that turns his skin numb and black. The sweet, heavy fragrance of the primordial salt floods his senses, filling his head with a humming resonance that drowns out the dripping pipes. He has his prize, but it is eating away at his flesh.
