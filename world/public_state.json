@@ -1,7 +1,7 @@
 {
   "location": "stillwell_hydro_lower_maintenance_wing",
   "session_number": 2,
-  "turn_number": 6,
+  "turn_number": 7,
   "flags_set": [
     "lobby_gate_unlocked",
     "personnel_records_searched",
@@ -18,7 +18,10 @@
     "canister_danger_realized",
     "canister_dropped_uncontrolled",
     "hands_frostbitten",
-    "vapor_cloud_maximum"
+    "vapor_cloud_maximum",
+    "tomas_dragged_to_safety",
+    "canister_smothered_by_corwin",
+    "corwin_possesses_canister"
   ],
   "known_npcs": [
     {

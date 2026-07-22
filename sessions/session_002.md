@@ -152,3 +152,26 @@ Outcome: Maren drops her compliance baton and lunges, but her hands, shivering f
 ---
 [2026-07-22T06:20:15.306357+00:00]
 Checks: {"Maren Solvig": {"skill": "skill", "governing_attribute": "resolve", "roll": 9, "modifier": -1, "total": 8, "dc": 13, "degree": "fail"}, "Corwin Tarrow": {"skill": "technique", "governing_attribute": "resolve", "roll": 11, "modifier": -2, "total": 9, "dc": 13, "degree": "fail"}}
+
+---
+[2026-07-22T10:11:47.773411+00:00]
+GM (turn 7):
+The freezing primordial vapor erupts from the fallen canister with a high-pitched, metallic shriek, instantly painting the concrete floor plates in a thick coat of blinding white frost. Maren, the sweet, heavy scent of the vapor floods your senses, bringing a cold, absolute certainty: Corwin is no longer an ally, but a predatory shape of salt and shadow waiting to tear Tomas apart. Your mind fractures under the freezing shock; you hear your mother's voice calling from the deep, dark corners of the ceiling pipes, begging you to save what Tomas brought back. Corwin, your mind successfully rejects the salt's direct mental pull, but the sheer sensory shock of the endothermic blast snaps something behind your eyes. The rhythmic clanging of the steam lines morphs into a mocking, distorted chorus of a hundred reception clerks chanting in unison, and the walls seem to warp outward, stretching the maintenance wing into an infinite, roofless hallway of frosted mirrors. Tomas has collapsed against the far valve-cluster, clutching his blackened, frostbitten fingers to his chest and staring at the hissing canister with wide, hollow eyes. The endothermic cloud is rising rapidly. If you stay in this room another moment without sealing the leak or dragging Tomas out, the cold will claim your limbs.
+
+---
+[2026-07-22T10:11:52.619065+00:00]
+Maren Solvig: I don't look at Corwin. I scramble toward Tomas, ignoring the searing cold biting into my shins, and grab him under the arms to drag him backward toward the corridor. 'Leave it, it's poison!' I scream at him, my eyes fixed only on his face, trying to block out the sight of the frosting mirrors and the sound of the chanting clerks. I pull him with all my remaining strength, desperate to put distance between us and the hissing leak.
+
+---
+[2026-07-22T10:11:52.619187+00:00]
+Corwin Tarrow: I stagger back from the freezing white cloud, my breath hitching in my chest as the room stretches and distorts around me. I don't look at Maren or Tomas; I keep my eyes locked on the hissing canister, my mind fighting the hallucinations. 'The seal... it's still venting...' I grit my teeth, ignoring the frost numbing my legs, and lunge forward toward the canister with my heavy coat outstretched to smother the leak. I'm not leaving without it.
+
+---
+[2026-07-22T10:12:07.755105+00:00]
+Outcome: Maren digs her heels into the slick metal plating of the maintenance floor, locking her arms under Tomas's shoulders. With a desperate heave of strength, she drags her shivering, altered brother backward through the threshold, pulling him free of the billowing white frost. Tomas gasps for air in the damp corridor, his graying, frostbitten fingers curling uselessly against his chest as he stares back into the room in terror.
+
+Inside, Corwin does not run. Driven by sheer obsession, he lunges into the heart of the freezing cloud, throwing his heavy woolen coat over the venting canister and slamming his weight down to smother the leak. The sharp, agonizing hiss dies to a muffled, bubbling murmur. The intense, endothermic cold bites instantly through his sleeves, crystallizing the fabric and numbing his forearms (causing 1 stack of Blood Loss), but the vapor is contained. He holds the freezing, coat-wrapped brass cylinder in his arms—obsessively claimed, but raw and dangerous.
+
+---
+[2026-07-22T10:12:07.755212+00:00]
+Checks: {"Maren Solvig": {"skill": "strength", "governing_attribute": "resolve", "roll": 15, "modifier": -1, "total": 14, "dc": 13, "degree": "success"}, "Corwin Tarrow": {"skill": "vigor", "governing_attribute": "resolve", "roll": 18, "modifier": -2, "total": 16, "dc": 13, "degree": "success"}}
