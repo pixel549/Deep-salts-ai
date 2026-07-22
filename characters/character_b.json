@@ -20,9 +20,9 @@
   "max_hp": 120,
   "movement_budget": 8,
   "tracks": {
-    "blood_loss": 2,
+    "blood_loss": 3,
     "insanity": 4,
-    "influence": 8,
+    "influence": 9,
     "corrosion": 0
   },
   "weapon": {

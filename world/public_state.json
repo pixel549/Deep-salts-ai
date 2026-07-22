@@ -1,7 +1,7 @@
 {
   "location": "stillwell_hydro_lower_maintenance_wing",
   "session_number": 2,
-  "turn_number": 5,
+  "turn_number": 6,
   "flags_set": [
     "lobby_gate_unlocked",
     "personnel_records_searched",
@@ -15,7 +15,10 @@
     "tomas_allied_with_maren",
     "exit_blocked_by_corwin",
     "tomas_hesitates",
-    "canister_danger_realized"
+    "canister_danger_realized",
+    "canister_dropped_uncontrolled",
+    "hands_frostbitten",
+    "vapor_cloud_maximum"
   ],
   "known_npcs": [
     {

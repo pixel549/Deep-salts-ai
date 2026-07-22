@@ -5,32 +5,32 @@
     {
       "character": "Maren Solvig",
       "track": "influence",
-      "reason": "Primordial vapor exposure at critical threshold.",
-      "roll": 12,
-      "dc": 16,
-      "success": false
-    },
-    {
-      "character": "Maren Solvig",
-      "track": "insanity",
-      "reason": "Witnessing her brother's hand rapidly calcifying/freezing from salt exposure.",
-      "roll": 4,
-      "dc": 15,
+      "reason": "Exposure to high-concentration primordial salt vapor",
+      "roll": 16,
+      "dc": 17,
       "success": false
     },
     {
       "character": "Corwin Tarrow",
       "track": "influence",
-      "reason": "Primordial vapor exposure at critical threshold.",
+      "reason": "Exposure to high-concentration primordial salt vapor",
+      "roll": 20,
+      "dc": 20,
+      "success": true
+    },
+    {
+      "character": "Maren Solvig",
+      "track": "insanity",
+      "reason": "The terror of the escaping primordial hazard and Tomas's panic",
       "roll": 1,
-      "dc": 19,
+      "dc": 15,
       "success": false
     },
     {
       "character": "Corwin Tarrow",
       "track": "insanity",
-      "reason": "Standoff under extreme environmental hazard and active physical injury.",
-      "roll": 12,
+      "reason": "Sensory shock of the endothermic vapor burst",
+      "roll": 1,
       "dc": 15,
       "success": false
     }

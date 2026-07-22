@@ -131,3 +131,24 @@ Checks: {"Corwin Tarrow": {"skill": "influence", "governing_attribute": "resolve
 ---
 [2026-07-22T01:19:05.493361+00:00]
 Combat: {"Maren Solvig": {"type": "attack", "note": "No active encounter -- action had no target, ignored."}}
+
+---
+[2026-07-22T06:19:41.358791+00:00]
+GM (turn 6):
+The air in the maintenance wing has turned sweet, cold, and heavy as wet wool, sparkling under the dim amber service bulbs. Maren, the sight of Tomas's hand—his fingers stiffening into white, crystalline needles that split the skin around his nails—strikes you like a physical blow. The hum of the hot-water pipes sounds like a low, mocking laugh, and the fog in your head whispers that everyone has lied to you. Beside you, Tomas gasps, his arm trembling violently as the white frost crawls up his sleeve. His grip is failing; the heavy brass canister is slipping from his numbed fingers. Corwin, your bruised collarbone feels distant, replaced by an electric, pulsing warmth. The sweet mist doesn't smell like a hazard; it smells like the purest trade you've ever laid eyes on. It's too beautiful to be ruined by a terrified technician and a frantic auditor who don't understand its value. The canister is tilting in Tomas's calcifying grasp, poised to crash onto the concrete floor and rupture completely if someone doesn't intervene.
+
+---
+[2026-07-22T06:19:44.641979+00:00]
+Maren Solvig: I drop my baton to the floor, the metal clattering loudly, and lunge forward to catch the canister before it hits the concrete. I ignore the frost stinging my own skin, my voice a frantic whisper to Tomas. 'Give it to me, Tomas, I've got it!' I look toward Corwin, my eyes wide and pleading, not for his safety, but for his assistance. 'Help me stabilize it—if it breaks now, we're all lost!'
+
+---
+[2026-07-22T06:19:44.642139+00:00]
+Corwin Tarrow: I don't look at them; I look only at the canister as it tips. I step forward, my shoulder screaming in protest, and catch the brass cylinder before it hits the floor. I move with a practiced, singular focus, my hands cradling it as I immediately start to check the venting valve for a way to reseal it. 'Back away, both of you,' I command, my voice now strangely devoid of my usual trader's warmth. 'You've let enough of the value bleed out into the air. I have the kit to seal this—I am the only one who can keep this from killing you.'
+
+---
+[2026-07-22T06:20:15.306269+00:00]
+Outcome: Maren drops her compliance baton and lunges, but her hands, shivering from the creeping chill, slip against the smooth, freezing brass of the canister. Corwin steps forward to intercept, catching the cylinder and desperately fumbling with his sealing kit. But the alignment is off; his stiffened fingers fail to secure the cap. With a piercing hiss, the valve vents a high-pressure spray of endothermic salt-frost directly across their grasping hands. The sudden, biting cold leaves painful, crystallizing micro-abrasions on their flesh, and a dense cloud of sweet, heavy primordial vapor blooms in the cramped maintenance wing. Tomas cries out, stumbling back into the shadows as the canister falls, venting uncontrolled on the concrete floor.
+
+---
+[2026-07-22T06:20:15.306357+00:00]
+Checks: {"Maren Solvig": {"skill": "skill", "governing_attribute": "resolve", "roll": 9, "modifier": -1, "total": 8, "dc": 13, "degree": "fail"}, "Corwin Tarrow": {"skill": "technique", "governing_attribute": "resolve", "roll": 11, "modifier": -2, "total": 9, "dc": 13, "degree": "fail"}}
