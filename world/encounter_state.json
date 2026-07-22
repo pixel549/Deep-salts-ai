@@ -5,18 +5,34 @@
     {
       "character": "Maren Solvig",
       "track": "influence",
-      "reason": "The sweet, heavy vapor of the primordial leak triggers a possessive pull toward the canister.",
-      "roll": 1,
+      "reason": "Primordial vapor exposure at critical threshold.",
+      "roll": 12,
+      "dc": 16,
+      "success": false
+    },
+    {
+      "character": "Maren Solvig",
+      "track": "insanity",
+      "reason": "Witnessing her brother's hand rapidly calcifying/freezing from salt exposure.",
+      "roll": 4,
       "dc": 15,
       "success": false
     },
     {
       "character": "Corwin Tarrow",
       "track": "influence",
-      "reason": "The concentrated violet mist deepens the urge to secure the salt source.",
-      "roll": 19,
-      "dc": 18,
-      "success": true
+      "reason": "Primordial vapor exposure at critical threshold.",
+      "roll": 1,
+      "dc": 19,
+      "success": false
+    },
+    {
+      "character": "Corwin Tarrow",
+      "track": "insanity",
+      "reason": "Standoff under extreme environmental hazard and active physical injury.",
+      "roll": 12,
+      "dc": 15,
+      "success": false
     }
   ]
 }

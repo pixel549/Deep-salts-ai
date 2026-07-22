@@ -106,3 +106,28 @@ Checks: {"Maren Solvig": {"skill": "influence", "governing_attribute": "resolve"
 ---
 [2026-07-21T20:57:10.990756+00:00]
 Combat: {"Corwin Tarrow": {"type": "attack", "note": "No active encounter -- action had no target, ignored."}}
+
+---
+[2026-07-22T01:18:47.887487+00:00]
+GM (turn 5):
+The whistling from the brass canister's cracked seam grows shriller, spewing a dense, lilac-colored fog that pools around your ankles and rises to chest height. For Maren, the air suddenly tastes remarkably clean—free of the stagnant rot of the lower levels, smelling instead of crisp mountain peaks and deep-earth iron. The brass canister in Tomas's hands hums with a sweet, resonant vibration that matches the steady beat of her own pulse, while Corwin's blocking posture in the doorway looks stark, unnatural, and predatory. For Corwin, the air is choking and sweet, but his mind remains sharp and cold. He can see the violet frost spreading rapidly across Tomas's fingers, and he notices a dangerous change in Maren—the way her focus locks onto him, her posture stiffening as the lilac vapor curls around her like a protective shroud. Tomas gasps, clutching the freezing brass closer to his chest. 'Maren... he's waiting for us to weaken,' he whispers, his breath puffing violet in the cold. 'He's going to take it. We have to clear the way.'
+
+---
+[2026-07-22T01:18:51.877041+00:00]
+Maren Solvig: I don't look back at Corwin, my entire focus fixed on the path out of the room. 'Tomas, stay behind me,' I command, my voice surprisingly steady as I step directly toward Corwin. 'I am not letting you take this, and I am not letting you stop us.' I raise my department-issue baton, holding it not as a tool for audit, but as a weapon to clear a path, and I drive it forward in a forceful, heavy swing toward Corwin's shoulder, intent on forcing him away from the door so we can escape.
+
+---
+[2026-07-22T01:18:51.877174+00:00]
+Corwin Tarrow: I don't shift my feet, my grip on the sample-weight cudgel steady despite the blood running down my arm. 'You're both spiraling,' I say, my voice raspy but calm, projecting the cold authority of someone who knows the true cost of what you're holding. 'That vessel is compromised, and the vapors are rotting your perceptions—look at his hand, Maren, he's freezing from the inside out. Put it on the bench, keep your distance, and let me stabilize the seal. You want to save him? You can't do it with a broken valve bleeding out that grade of material. That's not a treasure; it's a slow death.' I hold my ground, eyes locked on the canister, ready to move only when they finally realize that I am the only one here who knows how to keep this volatile salt from killing them both.
+
+---
+[2026-07-22T01:19:05.493215+00:00]
+Outcome: Maren lunges forward, her department-issue baton raised to strike, but the sheer gravity in Corwin's voice cuts through the humid, salt-sweet air. He stands his ground, ignoring his bleeding arm, pointing directly at the canister. 'That vessel is compromised,' he warns, his words ringing with a heavy, academic authority that halts Maren mid-swing. 'He's freezing from the inside out.' Maren's gaze darts down. To her horror, Tomas's fingers—clutched tightly around the brass seams—are turning a translucent, chalky white. Microscopic, jagged salt crystals are blossoming across his knuckles, biting deep into his flesh as the extreme endothermic reaction of the leaking primordial salt saps the life from his hand. Tomas gasps, his grip slipping as the cold deadens his nerves, his fierce paranoia momentarily giving way to sheer, agonizing shock. The sweet, freezing vapor continues to pour into the narrow maintenance corridor, pooling around their boots.
+
+---
+[2026-07-22T01:19:05.493303+00:00]
+Checks: {"Corwin Tarrow": {"skill": "influence", "governing_attribute": "resolve", "roll": 15, "modifier": -2, "total": 13, "dc": 13, "degree": "success"}}
+
+---
+[2026-07-22T01:19:05.493361+00:00]
+Combat: {"Maren Solvig": {"type": "attack", "note": "No active encounter -- action had no target, ignored."}}

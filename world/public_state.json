@@ -1,7 +1,7 @@
 {
   "location": "stillwell_hydro_lower_maintenance_wing",
   "session_number": 2,
-  "turn_number": 4,
+  "turn_number": 5,
   "flags_set": [
     "lobby_gate_unlocked",
     "personnel_records_searched",
@@ -13,7 +13,9 @@
     "corwin_struck_by_tomas",
     "primordial_leak_worsened",
     "tomas_allied_with_maren",
-    "exit_blocked_by_corwin"
+    "exit_blocked_by_corwin",
+    "tomas_hesitates",
+    "canister_danger_realized"
   ],
   "known_npcs": [
     {
