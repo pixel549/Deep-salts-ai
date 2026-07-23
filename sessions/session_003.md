@@ -23,3 +23,24 @@ Outcome: In the damp, cramped dark of the flooded conduits, Maren drops to her k
 ---
 [2026-07-23T17:13:44.462392+00:00]
 Checks: {"Maren Solvig": {"skill": "skill", "governing_attribute": "resolve", "roll": 15, "modifier": -1, "total": 14, "dc": 13, "degree": "success"}}
+
+---
+[2026-07-23T20:50:42.296927+00:00]
+GM (turn 2):
+For Corwin, the freezing chamber has dissolved into a radiant, golden bath-house. The brass canister pressed tightly against his ribs no longer feels like sub-zero metal; it hums with a deep, maternal warmth that vibrates through his collarbones. The copper conduits overhead have become the pipes of a great organ, breathing a resonant, low-frequency chord that whispers his name: "Keep it close. It is yours." But beneath this beautiful, warm haze, his body is screaming in a language he can no longer read. His hands are pale, stiff claws locked around the metal, entirely numb. White salt-crystals are creeping like delicate lace up his sleeves, stiffening his joints. He is isolated, holding his prize in a paradise that is slowly freezing him to death. Across the threshold, the rush of cold air from the newly opened vent has swept the sweet vapor out of the flooded conduits, leaving Maren in the dark, knee-deep sludge. Tomas shivers against her, his breathing shallow but stabilized by the tonic. He looks back at the unsealed hatch behind them, his eyes wide in the gloom. "It's still leaking through the gap," he whispers, his teeth chattering. "He's not coming for us, Maren—he's coming for the salt. If he crawls through that hatch with it, the whole conduit will freeze over. We have to seal him in, or we run deeper."
+
+---
+[2026-07-23T20:50:45.620003+00:00]
+Maren Solvig: I shove my weight against the heavy iron hatch, trying to force it shut one last time even though it's jammed. 'We don't have time to wait,' I hiss at Tomas, grabbing his good arm to haul him toward the deeper service tunnels. 'If he's gone, he's gone. We seal this corridor from the other side, and we do it now. Stay close and don't look back at that door.' I keep my pace fast, looking for any secondary door or heavy obstruction in the corridor that could block off this section.
+
+---
+[2026-07-23T20:50:45.620131+00:00]
+Corwin Tarrow: I tilt my head toward the singing pipes, a serene smile fixed on my face even as my fingers shatter like glass against the brass. 'The warmth is here,' I whisper to the empty air, cradling the canister with a devotion that leaves my hands and arms completely still, locked in the grip of the ice. I do not look toward the hatch; I only hum, louder now, matching the deep, vibrating thrum of the system as I begin to drift into the resonance of the room.
+
+---
+[2026-07-23T20:52:33.250807+00:00]
+Outcome: Maren throws her entire weight against the jammed iron hatch. With a harsh, grinding screech of rusted metal, the heavy latch finally slips into its groove and bites. The heavy seal is restored, instantly cutting off the sweet, suffocating hiss of the primordial vapor. She grabs Tomas by his good arm and drags him into the freezing knee-deep water of the service tunnels, splashing forward into the dark. Behind the thick iron door, Corwin remains entirely isolated. He cradles the freezing brass cylinder against his chest like a precious child, a serene, glassy smile fixed on his lips. His fingers have turned a dead, translucent white, and the cold has locked his elbows and shoulders into rigid, useless angles. He does not even look toward the slamming of the hatch; his voice merely joins the low, rhythmic humming of the pipes, echoing softly in the mist as the extreme cold begins to shut down his body's core.
+
+---
+[2026-07-23T20:52:33.250930+00:00]
+Checks: {"Maren Solvig": {"skill": "strength", "governing_attribute": "resolve", "roll": 16, "modifier": -1, "total": 15, "dc": 13, "degree": "success"}}
