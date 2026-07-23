@@ -1,7 +1,7 @@
 {
   "location": "stillwell_hydro_lower_flooded_conduits",
   "session_number": 3,
-  "turn_number": 0,
+  "turn_number": 1,
   "flags_set": [
     "lobby_gate_unlocked",
     "personnel_records_searched",
@@ -27,7 +27,9 @@
     "hatch_jammed_open",
     "corwin_frostbite_deepens",
     "maren_lost_in_conduits",
-    "corwin_hypothermia_deepens"
+    "corwin_hypothermia_deepens",
+    "conduit_vent_opened",
+    "tomas_stabilized_by_tonic"
   ],
   "known_npcs": [
     {

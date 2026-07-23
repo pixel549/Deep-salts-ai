@@ -4,35 +4,19 @@
   "pending_save_results": [
     {
       "character": "Corwin Tarrow",
-      "track": "influence",
-      "reason": "Clutching the venting primordial canister directly to his body.",
-      "roll": 12,
-      "dc": 24,
+      "track": "insanity",
+      "reason": "Surrendering his mind fully to the freezing primordial salt and the voices in the copper pipes.",
+      "roll": 8,
+      "dc": 17,
       "success": false
     },
     {
       "character": "Corwin Tarrow",
-      "track": "insanity",
-      "reason": "Deepening auditory hallucinations and environmental isolation.",
-      "roll": 10,
-      "dc": 15,
-      "success": false
-    },
-    {
-      "character": "Maren Solvig",
       "track": "influence",
-      "reason": "Trailing vapor slowly accumulating in the closed, dead-end conduit.",
-      "roll": 14,
-      "dc": 19,
+      "reason": "Clutching the venting canister to his chest while breathing in pure, concentrated vapor.",
+      "roll": 3,
+      "dc": 26,
       "success": false
-    },
-    {
-      "character": "Maren Solvig",
-      "track": "insanity",
-      "reason": "Frantic realization of being lost in the dark with her failing brother.",
-      "roll": 18,
-      "dc": 17,
-      "success": true
     }
   ]
 }
