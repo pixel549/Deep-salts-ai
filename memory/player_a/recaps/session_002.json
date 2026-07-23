@@ -1,0 +1,20 @@
+{
+  "author": "player_a",
+  "events_i_witnessed": [
+    "I forced Tomas away from the maintenance room after the canister ruptured, ignoring Corwin's obsession with it.",
+    "The pressure hatch to the corridor jammed, forcing us to abandon it and move deeper into the lower facility.",
+    "Tomas led us into a blind conduit full of runoff while suffering from severe frostbite and confusion.",
+    "I witnessed the primordial vapor begin to web the walls with frost, following us from the maintenance room."
+  ],
+  "beliefs": [
+    "Tomas is dying and needs immediate medical attention, likely at the filtration tanks or the sluices.",
+    "Corwin has been completely lost to the facility's corruption and is no longer a human person I can bargain with.",
+    "The vapor is a lethal, mind-altering toxin that must be avoided at all costs to ensure our survival.",
+    "The facility's layout is shifting or designed to trap us, and we are running out of time."
+  ],
+  "open_threads": [
+    "Find a path to the filtration tanks and the drainage sluices to escape Stillwell Hydro.",
+    "Stabilize Tomas's condition and prevent the frostbite from spreading further.",
+    "Avoid the encroaching primordial vapor and whatever has become of Corwin."
+  ]
+}
