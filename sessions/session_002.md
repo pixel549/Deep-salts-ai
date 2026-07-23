@@ -217,3 +217,30 @@ Back in the maintenance chamber, Corwin remains seated on the freezing floor. To
 ---
 [2026-07-22T20:52:59.489037+00:00]
 Checks: {"Maren Solvig": {"skill": "strength", "governing_attribute": "resolve", "roll": 11, "modifier": -1, "total": 10, "dc": 13, "degree": "fail"}}
+
+---
+[2026-07-23T01:26:28.437466+00:00]
+GM (turn 10):
+The lower maintenance corridor is a narrow conduit of sweating concrete and rusted iron. The pressure hatch behind you is jammed at a hard angle, the heavy brass wheel refusing to rotate that last quarter-turn. Through the three-inch gap, a silent, milky tongue of primordial vapor is already licking into the passage, settling near the floor like heavy river fog. 
+
+Maren, your mind remains icy and sharp despite the claustrophobic darkness. Beside you, Tomas is shivering violently, his breath hitching in dry, rhythmic gasps. His blue, frost-nipped fingers clutch at your compliance coat. 'It's leaking past,' he whispers, his eyes wide in the dark. 'We can't stay here, Maren. The lower filtration tanks are just past the next junction—there are wool-piles there to wrap my hands, and the drainage sluices might let us slip out below the bath-house entirely. But we have to move before the cold catches up.'
+
+Inside the chamber, Corwin, the world has settled into a magnificent, ringing stillness. The biting agony in your hands has blossomed into a deep, comforting heat, like raw hearth-coals pressed against your palms. The frostbite patterns on your skin look like intricate silver embroidery, delicate and perfect. The canister feels light, precious, and intensely warm in your grip, though your right arm is sluggish, stiff, and barely responsive to your will. The voices in the pipes are no longer whispering; they are singing a low, resonant chord that vibrates right through your teeth. The door to your escape is partially blocked by the jammed hatch, but beyond it, you can see the warm, flickering outlines of intruders who want to steal this beautiful, silent heat from you.
+
+---
+[2026-07-23T01:26:31.834123+00:00]
+Maren Solvig: I ignore the jammed hatch, knowing we cannot waste precious time on mechanical failure. I wrap my arm firmly around Tomas's waist, supporting his weight so he can conserve his own strength. 'To the filtration tanks then,' I say, my voice low and urgent, keeping my eyes fixed on the path ahead. I move us quickly down the corridor, relying on his knowledge of the facility to navigate, determined to reach the sluices before the vapor claims any more of us. I do not look back at the maintenance room.
+
+---
+[2026-07-23T01:26:31.834249+00:00]
+Corwin Tarrow: I remain seated, clutching the canister firmly to my chest, my gaze fixed on the sliver of light from the door where the intruders are hiding. I hum along with the low, resonant vibration of the pipes, completely at peace. 'You won't take her,' I murmur, my voice sounding hollow and detached. 'She’s singing to me, and you're just noise.' I make no move to leave; instead, I shift slightly to further hide the canister behind my coat, my posture shielding the source of the heat from anyone who might dare reach for it.
+
+---
+[2026-07-23T01:26:43.931234+00:00]
+Outcome: Maren ignores the jammed metal hatch, hoisting Tomas's shivering weight against her shoulder and pushing deeper into the dark, echoing network of pipes. Tomas mutters frantic, contradictory directions, his breath coming in shallow, icy gasps. The damp air thickens with a heavy, sweet-tasting condensation as they descend, but the layout is a labyrinth; without a clear path, they find themselves stepping through ankle-deep, mineral-crusted runoff, turning down a blind conduit that leads to a dead end of dripping valves and rising steam. Behind them, a thin, glittering trail of white frost begins to web across the walls as the vapor slowly seeps through the unsealed gap in the hatch.
+
+Meanwhile, in the maintenance room, Corwin remains seated against the cold wall. The primordial canister is held tight to his chest like a sleeping child. The metal is so cold it has long since ceased to feel frozen; indeed, a pleasant, radiating warmth seems to bloom from it, spreading across his ribs in a blanket of heavy, comforting silver. His right arm is entirely numb, locked in place, and now the chill begins to creep into his left hand, turning his fingernails a deep, bruised blue as he hums back to the piping. The voice in the steam is loud now, drowning out the physical reality of the darkening room.
+
+---
+[2026-07-23T01:26:43.931332+00:00]
+Checks: {"Maren Solvig": {"skill": "skill", "governing_attribute": "resolve", "roll": 9, "modifier": -1, "total": 8, "dc": 13, "degree": "fail"}}

@@ -5,25 +5,33 @@
     {
       "character": "Corwin Tarrow",
       "track": "influence",
-      "reason": "Clutching the leaking primordial source directly",
-      "roll": 10,
-      "dc": 25,
+      "reason": "Clutching the venting primordial canister directly to his body.",
+      "roll": 12,
+      "dc": 24,
       "success": false
     },
     {
       "character": "Corwin Tarrow",
       "track": "insanity",
-      "reason": "Deepening auditory and sensory hallucinations",
-      "roll": 2,
-      "dc": 16,
+      "reason": "Deepening auditory hallucinations and environmental isolation.",
+      "roll": 10,
+      "dc": 15,
+      "success": false
+    },
+    {
+      "character": "Maren Solvig",
+      "track": "influence",
+      "reason": "Trailing vapor slowly accumulating in the closed, dead-end conduit.",
+      "roll": 14,
+      "dc": 19,
       "success": false
     },
     {
       "character": "Maren Solvig",
       "track": "insanity",
-      "reason": "Trapped in the dark corridor with a failing seal and a panicked brother",
-      "roll": 17,
-      "dc": 16,
+      "reason": "Frantic realization of being lost in the dark with her failing brother.",
+      "roll": 18,
+      "dc": 17,
       "success": true
     }
   ]
