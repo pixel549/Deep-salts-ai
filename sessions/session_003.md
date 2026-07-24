@@ -96,3 +96,28 @@ Outcome: Maren Solvig swings her baton against the heavy copper pipe. The metall
 ---
 [2026-07-24T10:04:47.436028+00:00]
 Checks: {"Maren Solvig": {"skill": "resolve", "governing_attribute": "resolve", "roll": 7, "modifier": -1, "total": 6, "dc": 13, "degree": "fail"}}
+
+---
+[2026-07-24T17:20:11.326738+00:00]
+GM (turn 5):
+The icy water of the siphon rises to the chest, but to Maren, the freezing tide has begun to feel thick, heavy, and sickeningly warm—like black tallow pouring into her ears and lungs. When she reaches out to find a grip on the rusted iron rungs of the maintenance shaft, her frostbitten fingers do not feel cold metal; they slide against what feels like the wet, stiff fabric of a clerk's waxed-canvas coat. Beside her, Tomas's frantic splashing sounds distant, muffled by a low, rhythmic hum that vibrates through the iron plates. The darkness of the flooded tunnel is no longer empty; it has taken on a heavy, brass-colored shape that hovers just beneath the surface of the black water, waiting for her to stop fighting the current.
+
+For Corwin, the damp iron vault and the screaming draft are completely gone. He stands instead in the sunlit, lavender-scented warmth of Stillwell Hydro's grand conservatory. His hands and arms are tucked into deep, steaming towels, feeling wonderfully light and free of pain. A polite attendant—the Reception Clerk, wearing a spotless white silk robe—smiles down at him with a flat, rehearsed gaze, murmuring that his 'deep cure' has finally begun. The clerk reaches down to adjust the boiling mineral water at Corwin's feet. The touch of the steam is an intense, agonizing brand that sears through the illusion of warmth, but Corwin's arms are far too comfortable, far too heavy, to be pulled away. A shadow looms behind the clerk, stretching across the beautiful glass ceiling.
+
+---
+[2026-07-24T17:20:14.911036+00:00]
+Maren Solvig: I shove Tomas hard, throwing him toward the ladder I felt, and lunge toward the brass-colored shape, swinging my baton with every ounce of my fading strength. 'I see you!' I scream into the dark, forcing my eyes to track the shifting movement and ignoring the thick, suffocating warmth of the water. I will not be a patient, and I will not let this thing pull me under.
+
+---
+[2026-07-24T17:20:14.911186+00:00]
+Corwin Tarrow: I settle deeper into the warmth of the towels, looking up at the clerk with a soft, satisfied smile. 'Everything is finally in balance, isn't it?' I murmur, closing my eyes as the shadow washes over me. I offer no resistance, letting the heavy, beautiful steam pull me down into the final, perfect rhythm of the pipes. 'It's a fair trade,' I whisper to the attendant, 'the cure for the song.'
+
+---
+[2026-07-24T17:22:15.923477+00:00]
+Outcome: Maren Solvig lunges wildly into the black, rushing waters of the siphon, her heavy baton striking nothing but cold, empty currents and clanging harshly against wet concrete. There is no monster here—only the shifting, deceptive glare of the dark. Her shove sends Tomas stumbling onto the lower rungs of the iron ladder; he gasps, coughing up brackish water as he begins a slow, agonizing climb. Maren is left clinging to the ladder's bottom rungs, her body shivering violently as the freezing siphon water drags at her limbs.
+
+Meanwhile, in the sealed chamber, Corwin Tarrow lies curled in a tight spiral on the freezing stone floor, his blackened, frostbitten arms locked around the venting brass canister like a vice. In his mind, he is cocooned in the thick, comforting steam of the Stillwell bathhouse, receiving the quiet administration of the Clerk. He does not feel his flesh turning grey, nor does he hear the steady, fatal hum of the pipes as his core temperature continues to plummet.
+
+---
+[2026-07-24T17:22:15.923571+00:00]
+Combat: {"Maren Solvig": {"type": "attack", "note": "No active encounter -- action had no target, ignored."}}

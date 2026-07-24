@@ -5,9 +5,17 @@
     {
       "character": "Maren Solvig",
       "track": "insanity",
-      "reason": "Slipping into the dark siphon water while her brother panics",
-      "roll": 12,
-      "dc": 19,
+      "reason": "Struggling against drowning and phantom shapes in the siphon",
+      "roll": 7,
+      "dc": 21,
+      "success": false
+    },
+    {
+      "character": "Maren Solvig",
+      "track": "influence",
+      "reason": "Swallowing and inhaling the heavily salt-saturated waters",
+      "roll": 18,
+      "dc": 20,
       "success": false
     }
   ]
