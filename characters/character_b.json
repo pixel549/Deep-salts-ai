@@ -16,12 +16,12 @@
     "resolve": 4
   },
   "insight": 3,
-  "hp": 20,
+  "hp": 0,
   "max_hp": 120,
   "movement_budget": 8,
   "tracks": {
     "blood_loss": 10,
-    "insanity": 7,
+    "insanity": 9,
     "influence": 17,
     "corrosion": 0
   },

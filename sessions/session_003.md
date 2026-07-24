@@ -44,3 +44,32 @@ Outcome: Maren throws her entire weight against the jammed iron hatch. With a ha
 ---
 [2026-07-23T20:52:33.250930+00:00]
 Checks: {"Maren Solvig": {"skill": "strength", "governing_attribute": "resolve", "roll": 16, "modifier": -1, "total": 15, "dc": 13, "degree": "success"}}
+
+---
+[2026-07-24T01:22:15.765158+00:00]
+GM (turn 3):
+**The Sealed Chamber (Corwin Tarrow):**
+
+The iron hatch has settled into its frame with a heavy, final thud. The whistling of the vapor has faded into a deep, resonant hum that vibrates through the very soles of your boots. The biting cold is gone. In its place, a luxurious, velvet warmth radiates from the brass canister in your arms, spreading upward to soothe your aching chest. The voices in the metal are no longer a disjointed whisper; they are a soft, familiar chorus, welcoming you home. But your arms are entirely unresponsive, locked in a rigid, frozen hoop around the metal. Your fingers are chalky white, entirely devoid of sensation. The air is thick, sweet, and perfectly still.
+
+**The Drainage Conduits (Maren Solvig):**
+
+Beyond the sealed hatch, the sudden silence is heavy and suffocating. The sweet smell of the salt is slowly receding, replaced by the cold, damp stench of stagnant well-water and rotting iron. Tomas clings to your shoulder, his breath ragged but his voice triumphant. "We did it, Maren. We secured it. The thief is locked out." But as you look down at your hands, a phantom frost seems to bloom across your knuckles, mirroring the cold you just shut away. The echo of the clanging hatch rings in your ears, distorted and mocking. The dark tunnel ahead offers no light, only the steady, rhythmic drip of water.
+
+---
+[2026-07-24T01:22:19.417612+00:00]
+Maren Solvig: I stop, catching my breath in the darkness, and pull my coat tighter around myself, trying to rub the phantom frost from my knuckles. I turn toward Tomas, searching his face in the gloom for any sign that the cold has taken hold of him as well. 'We have to keep moving, Tomas. If there is a way out, it’s not back there. Can you lead me to the emergency drainage exit? We need to get above the water line.'
+
+---
+[2026-07-24T01:22:19.417743+00:00]
+Corwin Tarrow: I settle my head back against the wall, the rhythmic thrum of the pipes singing through my skull. My eyes drift shut, not in fatigue, but in complete and total harmony with the music of the facility. I whisper, 'We are safe now. The song is ours alone,' and continue to hum, matching my own breath to the deep, steady pulse of the machine until the sound of my own voice becomes indistinguishable from the copper pipes themselves.
+
+---
+[2026-07-24T01:22:37.587078+00:00]
+Outcome: In the damp, lightless maze of the flooded conduits, Maren tries to rub the phantom frost from her knuckles, her voice trembling as she asks Tomas to lead her toward the emergency drainage. But the dark is heavy, and her resolve wavers against the oppressive, dripping silence. Tomas looks back at her, his face a gaunt shadow. 'No, Maren,' he whispers, his voice tight with raw paranoia. 'Up is where they watch. Up is where they take what's ours. We have to go lower. The siphon is the only way.' Instead of guiding her to safety, he pulls her deeper into the icy, chest-high water of the dead-end conduit, leaving her disoriented and shivering in the absolute black.
+
+Behind the sealed hatch, Corwin Tarrow has surrendered to the thrumming music of the pipes. He rests his head against the freezing copper, his eyes closed as he hums a low, resonant harmony with the facility. To his fading senses, the biting frostbite feels like a warm, protective hearth. In reality, the primordial canister is leeching the last of his warmth. The extreme cold bites deep into his chest and useless, staggered arms, dealing 20 cold damage. He sits in perfect, silent isolation, slipping further into a beautiful, lethal delusion.
+
+---
+[2026-07-24T01:22:37.587173+00:00]
+Checks: {"Maren Solvig": {"skill": "skill", "governing_attribute": "resolve", "roll": 3, "modifier": -1, "total": 2, "dc": 13, "degree": "fail"}}

@@ -3,27 +3,27 @@
   "monster": null,
   "pending_save_results": [
     {
+      "character": "Maren Solvig",
+      "track": "insanity",
+      "reason": "Lost in the freezing, flooded siphon with an unstable guide.",
+      "roll": 15,
+      "dc": 19,
+      "success": false
+    },
+    {
       "character": "Corwin Tarrow",
       "track": "insanity",
-      "reason": "Complete isolation with the whispering primordial vapor.",
-      "roll": 6,
+      "reason": "Slipping deep into the warm delusion of the copper pipes.",
+      "roll": 15,
       "dc": 20,
       "success": false
     },
     {
       "character": "Corwin Tarrow",
       "track": "influence",
-      "reason": "Direct skin-contact exposure to the raw primordial container.",
-      "roll": 14,
-      "dc": 31,
-      "success": false
-    },
-    {
-      "character": "Maren Solvig",
-      "track": "insanity",
-      "reason": "Abandoning an ally to the freezing dark to save her brother.",
-      "roll": 9,
-      "dc": 18,
+      "reason": "The sweet, humming call of the primordial salt clutching his chest.",
+      "roll": 17,
+      "dc": 28,
       "success": false
     }
   ]
