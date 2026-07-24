@@ -21,7 +21,7 @@
   "movement_budget": 8,
   "tracks": {
     "blood_loss": 10,
-    "insanity": 9,
+    "insanity": 0,
     "influence": 17,
     "corrosion": 0
   },
@@ -45,11 +45,11 @@
     },
     "arm_left": {
       "stagger_meter": 0,
-      "severed": false
+      "severed": true
     },
     "arm_right": {
       "stagger_meter": 0,
-      "severed": false
+      "severed": true
     },
     "leg_left": {
       "stagger_meter": 0,

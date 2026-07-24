@@ -73,3 +73,26 @@ Behind the sealed hatch, Corwin Tarrow has surrendered to the thrumming music of
 ---
 [2026-07-24T01:22:37.587173+00:00]
 Checks: {"Maren Solvig": {"skill": "skill", "governing_attribute": "resolve", "roll": 3, "modifier": -1, "total": 2, "dc": 13, "degree": "fail"}}
+
+---
+[2026-07-24T10:04:26.212558+00:00]
+GM (turn 4):
+In the black, chest-deep waters of the siphon, the world is shrinking to the rhythm of Maren's own ragged breath. The water is bitter with sulfur and salt, but her skin no longer registers the cold—instead, she feels a prickling, phantom heat spreading behind her ears, and the low, heavy hum of the pipes seems to be vibrating inside her teeth. Ahead, Tomas is a pale, jerking silhouette in the beam of her light, splashing forward with a manic, uncoordinated haste. His voice echoes off the curved, dripping ceiling, but to Maren, it sounds as if he is whispering directly into her ear from behind, urging her to stop looking back, telling her that the dark is safer than whatever she left behind the iron door. The tunnels are branching, or perhaps they aren't—the reflections on the oily water make every shadow look like an opening, and every opening look like a dead end.
+
+Behind the sealed hatch, Corwin sits in a sanctuary of absolute, golden warmth. The freezing brass of the venting canister pressed against his chest has long ceased to feel like metal; it is a soft, dry hearth-fire, radiant and welcoming. The painful, throbbing numbness in his fingers has smoothed out into a velvet stillness. The pipes around him are no longer rusted conduits—they are the clean, copper vents of his old workshop, humming with a pleasant, familiar draft. A voice, clear and dry as paper, drifts from the shadows near the ceiling, praising his diligence, telling him he has done well to keep the salt safe from the scavengers outside. His arms feel heavy, almost immovable, but why would he want to move them? The heat is here, close to his heart, and the cold of the world has finally been locked outside.
+
+---
+[2026-07-24T10:04:31.837051+00:00]
+Maren Solvig: I grab Tomas firmly by his collar, jerking him to a halt despite the disorientation, and force my focus onto his face to break the cycle of his whispering. 'Listen to me, Tomas—look at my eyes, not the shadows,' I snap, my voice cutting through the hum that's rattling my teeth. I pull my department-issue baton from my belt and strike it sharply against a copper pipe, creating a loud, ringing resonance that I hope will drown out the hallucinations. 'We are not going lower, and we are not staying in the dark. We are going to find a service ladder and get to the surface. Tell me exactly where the ladder is, or I am carrying you there myself.'
+
+---
+[2026-07-24T10:04:31.837174+00:00]
+Corwin Tarrow: I nestle my chin against the canister, letting the 'paper-dry' voice from the ceiling fill the last of the silence. 'I knew you'd understand,' I whisper, my voice raspy and shallow, 'the others, they never understood the value of the cure. But we kept it safe. We kept it pure.' I close my eyes fully now, humming a gentle, steady melody, feeling the vibration of the pipes weave into my chest, and I simply let go of the last of my resolve to stay awake. I am the seal.
+
+---
+[2026-07-24T10:04:47.435926+00:00]
+Outcome: Maren Solvig swings her baton against the heavy copper pipe. The metallic ring is loud, but instead of clearing the air, the vibration rattles her teeth and amplifies the hum. Tomas Solvig shies away from the noise, his eyes wide and wild. He grabs her sleeve with his stiff, salt-encrusted fingers, pulling her off-balance. 'There is no ladder, Maren! They walled it off weeks ago! We have to go through the siphon!' he screams, dragging her deeper into the freezing, waist-deep water. Her boots slip on the slimy concrete, and the dark water rises to her chest, sapping her warmth. Meanwhile, in the sealed chamber, Corwin Tarrow cradles the freezing brass canister to his chest. He feels no pain now—only a deep, velvet warmth and the soothing lullaby of the dripping pipes. His hands and forearms, frozen grey and stiff as slate, fuse to the metal of the venting canister. As he surrenders his last thread of consciousness, the darkness takes him completely. He has broken.
+
+---
+[2026-07-24T10:04:47.436028+00:00]
+Checks: {"Maren Solvig": {"skill": "resolve", "governing_attribute": "resolve", "roll": 7, "modifier": -1, "total": 6, "dc": 13, "degree": "fail"}}

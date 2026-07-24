@@ -5,25 +5,9 @@
     {
       "character": "Maren Solvig",
       "track": "insanity",
-      "reason": "Lost in the freezing, flooded siphon with an unstable guide.",
-      "roll": 15,
+      "reason": "Slipping into the dark siphon water while her brother panics",
+      "roll": 12,
       "dc": 19,
-      "success": false
-    },
-    {
-      "character": "Corwin Tarrow",
-      "track": "insanity",
-      "reason": "Slipping deep into the warm delusion of the copper pipes.",
-      "roll": 15,
-      "dc": 20,
-      "success": false
-    },
-    {
-      "character": "Corwin Tarrow",
-      "track": "influence",
-      "reason": "The sweet, humming call of the primordial salt clutching his chest.",
-      "roll": 17,
-      "dc": 28,
       "success": false
     }
   ]
